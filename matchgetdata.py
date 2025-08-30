@@ -7,9 +7,10 @@ def extract_match_data(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     
     # Alap információk kinyerése
+    teams=soup.find_all(style=re.compile(r'font-size:11pt;'))[:2]
     match_info = {
-        'home_team': extract_team_info(soup, 'Hazai csapat:'),
-        'away_team': extract_team_info(soup, 'Vendég csapat:'),
+        'home_team': teams[0].text.strip(),
+        'away_team': teams[1].text.strip(),
         'score': extract_score(soup),
         'round_info': extract_round_info(soup),
         'matches': extract_individual_matches(soup),
@@ -19,15 +20,6 @@ def extract_match_data(html_content):
     }
     
     return match_info
-
-def extract_team_info(soup, team_type):
-    """Csapat információk kinyerése"""
-    try:
-        team_row = soup.find('td', string=team_type).find_parent('tr')
-        team_name = team_row.find_all('td')[2].text.strip()
-        return team_name
-    except:
-        return "Nem sikerült kinyerni"
 
 def extract_score(soup):
     """Eredmény kinyerése"""
@@ -53,13 +45,11 @@ def extract_individual_matches(soup):
         # Játékosok neveinek kinyerése
         players_row = soup.find('tr', class_='tablerow2')
         away_players = [td.text.strip() for td in players_row.find_all('td')[1:5]]
-        print(away_players)
         # Hazai játékosok kinyerése
         home_players_rows = soup.find_all('tr', style=re.compile(r'height:64px;'))
         
         for i, row in enumerate(home_players_rows[1:]):
             home_player = row.find('td', class_='tablerow2').text.strip()
-            print(home_player)
             # Eredmények kinyerése minden egyes mérkőzéshez
             match_cells = [cell for cell in row.find_all('td')[1:] if len(cell.find_all('tr')) >7]
             for j, cell in enumerate(match_cells):
@@ -86,13 +76,11 @@ def extract_match_details(cell, home_player, away_player):
                 away_score = set_cells[1].text.strip()
                 if home_score and away_score:
                     sets.append(f"{home_score}-{away_score}")
-                    #print(f"{home_score}-{away_score}")
         # Eredmény kinyerése (pl. 3/0)
         result_span = cell.find_all('span', style=re.compile(r'font-weight: bold'))
         resulthome = result_span[0].text.strip() if result_span else "N/A"
         resultaway = result_span[1].text.strip() if len(result_span) > 1 else "N/A"
         # Mérkőzés száma
-        print(f"{resulthome}-{resultaway}")
         match_num_span = cell.find('td', style=re.compile(r'color:gray;font-size:70%'))
         match_num = match_num_span.text.strip() if match_num_span else "N/A"
         
@@ -186,7 +174,7 @@ def print_match_data(match_data):
     print("-" * 60)
     for i, match in enumerate(match_data['matches'], 1):
         print(f"{i}. {match['home_player']} - {match['away_player']}")
-        print(f"   Eredmény: {match['result']}")
+        print(f"   Eredmény: {match['resulthome']} - {match['resultaway']}")
         if match['sets']:
             print(f"   Szettek: {', '.join(match['sets'])}")
         print()
@@ -212,15 +200,6 @@ def print_match_data(match_data):
             print(f"{key}: {value}")
 
 # HTML fájl beolvasása
-with open('mecslap.html', 'r', encoding='utf-8') as file:
-    html_content = file.read()
-
-# Adatok kinyerése
-match_data = extract_match_data(html_content)
-
-# Eredmények megjelenítése
-#print_match_data(match_data)
-
 # Opcionális: adatok exportálása CSV fájlba
 def export_to_csv(match_data):
     """Adatok exportálása CSV fájlba"""
@@ -245,5 +224,18 @@ def export_to_csv(match_data):
     
     print("Adatok exportálva CSV fájlokba!")
 
-# CSV exportálás (megjegyzésbe téve, ha nem szeretnéd)
-export_to_csv(match_data)
+def main():
+    with open('mecslap.html', 'r', encoding='utf-8') as file:
+        html_content = file.read()
+
+    # Adatok kinyerése
+    match_data = extract_match_data(html_content)
+
+    # Eredmények megjelenítése  
+    print_match_data(match_data)
+
+    # CSV exportálás (megjegyzésbe téve, ha nem szeretnéd)
+    export_to_csv(match_data)
+
+if __name__ == "__main__":
+    main()
