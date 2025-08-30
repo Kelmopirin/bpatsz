@@ -181,15 +181,15 @@ def export_to_csv(competition_data):
     """Adatok exportálása CSV fájlokba"""
     # Mérkőzések
     matches_df = pd.DataFrame(competition_data['matches'])
-    matches_df.to_csv('merkozesek.csv', index=False, encoding='utf-8')
+    matches_df.to_csv('src/merkozesek.csv', index=False, encoding='utf-8')
     
     # Csapat tabella
     standings_df = pd.DataFrame(competition_data['team_standings'])
-    standings_df.to_csv('csapat_tabella.csv', index=False, encoding='utf-8')
+    standings_df.to_csv('src/csapat_tabella.csv', index=False, encoding='utf-8')
     
     # Játékos ranglista
     players_df = pd.DataFrame(competition_data['player_rankings'])
-    players_df.to_csv('jatekos_ranglista.csv', index=False, encoding='utf-8')
+    players_df.to_csv('src/jatekos_ranglista.csv', index=False, encoding='utf-8')
     
     print("\nAdatok exportálva CSV fájlokba!")
 
