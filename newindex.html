@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BPATSZ - Budapesti Asztalitenisz Szövetség</title>
+  <style>
+    :root {
+      --primary: #d08010;
+      --primary-dark: #b26d0d;
+      --secondary: #2c3e50;
+      --light: #ecf0f1;
+      --dark: #2c3e50;
+      --gray: #95a5a6;
+      --success: #27ae60;
+      --danger: #e74c3c;
+      --warning: #f39c12;
+      --info: #3498db;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    
+    /* Header */
+    header {
+      background: linear-gradient(135deg, var(--secondary) 0%, var(--dark) 100%);
+      color: white;
+      padding: 1rem 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo h1 {
+      font-size: 1.8rem;
+      margin-left: 10px;
+      font-weight: 700;
+    }
+    
+    .logo-img {
+      width: 60px;
+      height: 60px;
+      background-color: var(--primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+    }
+    
+    .org-name {
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+    
+    /* Navigation and Filters */
+    .filters {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+      margin: 1rem 0;
+    }
+    
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      align-items: center;
+    }
+    
+    .filter-item {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .filter-item label {
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: var(--secondary);
+      font-size: 0.9rem;
+    }
+    
+    select {
+      padding: 10px 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: white;
+      font-size: 1rem;
+      min-width: 150px;
+      transition: all 0.3s;
+    }
+    
+    select:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(208, 128, 16, 0.2);
+    }
+    
+    /* Admin Link */
+    .admin-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 15px;
+      background-color: var(--secondary);
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: background-color 0.3s;
+    }
+    
+    .admin-link:hover {
+      background-color: var(--dark);
+    }
+    
+    /* Cards and Sections */
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+    
+    .card-header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: white;
+      padding: 1rem 1.5rem;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    
+    .card-body {
+      padding: 1.5rem;
+    }
+    
+    /* Match List */
+    .match-list {
+      list-style: none;
+    }
+    
+    .match-item {
+      padding: 1rem;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.2s;
+    }
+    
+    .match-item:hover {
+      background-color: #f9f9f9;
+    }
+    
+    .match-item:last-child {
+      border-bottom: none;
+    }
+    
+    .match-teams {
+      flex-grow: 1;
+    }
+    
+    .home-team {
+      color: var(--info);
+      font-weight: 600;
+    }
+    
+    .away-team {
+      color: var(--danger);
+      font-weight: 600;
+    }
+    
+    .vs {
+      margin: 0 10px;
+      color: var(--gray);
+    }
+    
+    .match-score {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--dark);
+      min-width: 60px;
+      text-align: center;
+    }
+    
+    .match-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+    }
+    
+    .match-link:hover {
+      text-decoration: underline;
+    }
+    
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    
+    th {
+      background-color: var(--secondary);
+      color: white;
+      padding: 12px 15px;
+      text-align: left;
+    }
+    
+    td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+    
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .cross-table {
+      font-size: 0.85rem;
+    }
+    
+    .cross-table th, .cross-table td {
+      text-align: center;
+      padding: 8px 5px;
+    }
+    
+    .team-name {
+      text-align: left;
+      font-weight: 600;
+    }
+    
+    /* Legend */
+    .legend {
+      display: flex;
+      align-items: center;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: var(--dark);
+    }
+    
+    .color-box {
+      width: 20px;
+      height: 20px;
+      background-color: #666;
+      margin-right: 10px;
+      border-radius: 3px;
+    }
+    
+    /* Player info links */
+    .player-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .player-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+    }
+    
+    .player-link:hover {
+      text-decoration: underline;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+      }
+      
+      .filter-group {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      
+      .match-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      
+      .match-score {
+        align-self: center;
+      }
+      
+      .cross-table {
+        font-size: 0.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <div class="logo-img">BPATSZ</div>
+          <div>
+            <h1>Eredmény Nyilvántartó</h1>
+            <div class="org-name">Budapesti Asztalitenisz Szövetség</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Filters -->
+    <section class="filters">
+      <form action="index.php">
+        <div class="filter-group">
+          <div class="filter-item">
+            <label for="bajnoksag">Bajnokság</label>
+            <select name="bajnoksag" id="bajnoksag" onchange="this.form.submit()">
+              <option value="11">2014-2015</option>
+              <option value="12">2015-2016</option>
+              <option value="13">2016-2017</option>
+              <option value="14">2017-2018</option>
+              <option value="15">2018-2019</option>
+              <option value="18">2019-2020</option>
+              <option value="19">2020-2021</option>
+              <option value="21">2021-2022</option>
+              <option value="24">2022-2023</option>
+              <option value="25">2023-2024</option>
+              <option value="27">2024-2025</option>
+              <option value="28" selected>2025-2026</option>
+            </select>
+          </div>
+          
+          <div class="filter-item">
+            <label for="osztaly">Osztály</label>
+            <select name="osztaly" id="osztaly" onchange="this.form.submit()">
+              <option value="1" selected>Budapest 1/A</option>
+              <option value="4">Budapest 1/B</option>
+              <option value="29">Budapest 1/B1</option>
+              <option value="30">Budapest 1/B2</option>
+              <option value="5">Budapest 1/C</option>
+              <option value="2">Budapest 2/1</option>
+              <option value="3">Budapest 2/2</option>
+              <option value="8">Budapest 2/3</option>
+            </select>
+          </div>
+          
+          <div class="filter-item">
+            <label for="fordulo">Forduló</label>
+            <select name="fordulo" id="fordulo" onchange="this.form.submit()">
+              <option value="1" selected>1.</option>
+              <option value="2">2.</option>
+              <option value="3">3.</option>
+              <option value="4">4.</option>
+              <option value="5">5.</option>
+              <option value="6">6.</option>
+              <option value="7">7.</option>
+              <option value="8">8.</option>
+              <option value="9">9.</option>
+              <option value="10">10.</option>
+              <option value="11">11.</option>
+              <option value="12">12.</option>
+              <option value="13">13.</option>
+              <option value="14">14.</option>
+              <option value="15">15.</option>
+              <option value="16">16.</option>
+              <option value="17">17.</option>
+              <option value="18">18.</option>
+              <option value="19">19.</option>
+              <option value="20">20.</option>
+              <option value="21">21.</option>
+              <option value="22">22.</option>
+              <option value="23">23.</option>
+              <option value="24">24.</option>
+              <option value="25">25.</option>
+              <option value="26">26.</option>
+              <option value="27">27.</option>
+              <option value="28">28.</option>
+              <option value="29">29.</option>
+              <option value="30">30.</option>
+            </select>
+          </div>
+        </div>
+      </form>
+      
+      <a href="index.php?modul=admin&ac=mecslapok" target="_blank" class="admin-link">Bejelentkezés és adminisztráció</a>
+    </section>
+
+    <!-- Matches -->
+    <section class="card">
+      <div class="card-header">
+        1. forduló csapatmérkőzései (kezdet: 2025-09-08)
+      </div>
+      <div class="card-body">
+        <ul class="match-list">
+          <li class="match-item">
+            <div class="match-teams">
+              <span class="home-team">GALAXIS VSE I.</span>
+              <span class="vs">↔</span>
+              <span class="away-team">ESMTK I.</span>
+            </div>
+            <div class="match-score">0 : 0</div>
+            <a href="index.php?action=mecslap&id=23989" class="match-link">Részletek →</a>
+          </li>
+          
+          <li class="match-item">
+            <div class="match-teams">
+              <span class="home-team">Kőbánya SC I.</span>
+              <span class="vs">↔</span>
+              <span class="away-team">OTP SK I.</span>
+            </div>
+            <div class="match-score">0 : 0</div>
+            <a href="index.php?action=mecslap&id=23990" class="match-link">Részletek →</a>
+          </li>
+          
+          <li class="match-item">
+            <div class="match-teams">
+              <span class="home-team">Pestszentimrei PSE III.</span>
+              <span class="vs">↔</span>
+              <span class="away-team">BEAC I.-PPKO</span>
+            </div>
+            <div class="match-score">0 : 0</div>
+            <a href="index.php?action=mecslap&id=23991" class="match-link">Részletek →</a>
+          </li>
+          
+          <li class="match-item">
+            <div class="match-teams">
+              <span class="home-team">Sanitas-Budo SE II.-Vármajor II.</span>
+              <span class="vs">↔</span>
+              <span class="away-team">Igazságügyi SC I.</span>
+            </div>
+            <div class="match-score">0 : 0</div>
+            <a href="index.php?action=mecslap&id=23985" class="match-link">Részletek →</a>
+          </li>
+          
+          <li class="match-item">
+            <div class="match-teams">
+              <span class="home-team">MVM SE I.</span>
+              <span class="vs">↔</span>
+              <span class="away-team">Pestújhelyi SC II.</span>
+            </div>
+            <div class="match-score">0 : 0</div>
+            <a href="index.php?action=mecslap&id=23986" class="match-link">Részletek →</a>
+          </li>
+          
+          <li class="match-item">
+            <div class="match-teams">
+              <span class="home-team">Pénzügyőr SE V.</span>
+              <span class="vs">↔</span>
+              <span class="away-team">MAFC I.</span>
+            </div>
+            <div class="match-score">0 : 0</div>
+            <a href="index.php?action=mecslap&id=23988" class="match-link">Részletek →</a>
+          </li>
+          
+          <li class="match-item">
+            <div class="match-teams">
+              <span class="home-team">Budai XI SE III.</span>
+              <span class="vs">↔</span>
+              <span class="away-team">Budai XI SE II.</span>
+            </div>
+            <div class="match-score">0 : 0</div>
+            <a href="index.php?action=mecslap&id=23987" class="match-link">Részletek →</a>
+          </li>
+          
+          <li class="match-item">
+            <div class="match-teams">
+              <span class="home-team">Pestszentimrei PSE II.</span>
+              <span class="vs">↔</span>
+              <span class="away-team">Pestszentimrei PSE IV.</span>
+            </div>
+            <div class="match-score">0 : 0</div>
+            <a href="index.php?action=mecslap&id=23992" class="match-link">Részletek →</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Cross Table First Half -->
+    <section class="card">
+      <div class="card-header">
+        Kereszttábla (első félév)
+      </div>
+      <div class="card-body">
+        <table class="cross-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>1.</th>
+              <th>2.</th>
+              <th>3.</th>
+              <th>4.</th>
+              <th>5.</th>
+              <th>6.</th>
+              <th>7.</th>
+              <th>8.</th>
+              <th>9.</th>
+              <th>10.</th>
+              <th>11.</th>
+              <th>12.</th>
+              <th>13.</th>
+              <th>14.</th>
+              <th>15.</th>
+              <th>16.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="team-name">1. BEAC I.-PPKO</td>
+              <td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td class="team-name">2. Budai XI SE II.</td>
+              <td></td><td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <!-- More rows would go here -->
+            <tr>
+              <td class="team-name">16. Sanitas-Budo SE II.-Vármajor II.</td>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="legend">
+          <div class="color-box"></div>
+          <div>Nem jóváhagyott</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cross Table Second Half -->
+    <section class="card">
+      <div class="card-header">
+        Kereszttábla (második félév)
+      </div>
+      <div class="card-body">
+        <table class="cross-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>1.</th>
+              <th>2.</th>
+              <th>3.</th>
+              <th>4.</th>
+              <th>5.</th>
+              <th>6.</th>
+              <th>7.</th>
+              <th>8.</th>
+              <th>9.</th>
+              <th>10.</th>
+              <th>11.</th>
+              <th>12.</th>
+              <th>13.</th>
+              <th>14.</th>
+              <th>15.</th>
+              <th>16.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="team-name">1. BEAC I.-PPKO</td>
+              <td>X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <!-- More rows would go here -->
+            <tr>
+              <td class="team-name">16. Sanitas-Budo SE II.-Vármajor II.</td>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="legend">
+          <div class="color-box"></div>
+          <div>Nem jóváhagyott</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Standings -->
+    <section class="card">
+      <div class="card-header">
+        Tabella
+      </div>
+      <div class="card-body">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Csapatnév</th>
+              <th>Mérkőzés</th>
+              <th>Győzelem</th>
+              <th>Döntetlen</th>
+              <th>Vereség</th>
+              <th>Pont</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.</td>
+              <td>Pénzügyőr SE V.</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <!-- More rows would go here -->
+            <tr>
+              <td>16.</td>
+              <td>ESMTK I.</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div style="margin-top: 15px; font-style: italic;">
+          Azonos pontszám esetén az egymás ellen elért eredmény dönt.
+        </div>
+        
+        <div style="margin-top: 15px;">
+          <div style="font-style: italic; margin-bottom: 10px;">Levonásra került büntetőpontok:</div>
+          <ul>
+            <!-- Content would go here -->
+          </ul>
+        </div>
+        
+        <div style="margin-top: 15px;">
+          <div style="font-style: italic; margin-bottom: 10px;">Érvénytelen mérkőzések:</div>
+          <ul>
+            <!-- Content would go here -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Player Information -->
+    <section class="card">
+      <div class="card-header">
+        Játékos információk
+      </div>
+      <div class="card-body">
+        <div class="player-links">
+          <a href="index.php?modul=admin&ac=szereplesek&user=4" target="_blank" class="player-link">Játékos szereplések</a>
+          <a href="index.php?modul=admin&ac=eltiltasok&user=4" target="_blank" class="player-link">Eltiltások és sárga lapok</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Player Rankings -->
+    <section class="card">
+      <div class="card-header">
+        Játékosranglista
+      </div>
+      <div class="card-body">
+        <a href="index.php?bajnoksag=28&osztaly=1&fordulo=1&showall=1#JRL" class="admin-link">Összes játékos megjelenítése</a>
+        
+        <table style="margin-top: 15px;">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Név</th>
+              <th>Engedély</th>
+              <th>Csapat</th>
+              <th>Mérkőzés</th>
+              <th>Győzelem</th>
+              <th>% arány</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Player rows would go here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer style="background-color: var(--secondary); color: white; padding: 2rem 0; margin-top: 2rem;">
+    <div class="container" style="text-align: center;">
+      <p><strong><a href="http://www.bpatsz.hu" target="_blank" style="color: white;">Budapesti Asztalitenisz Szövetség</a></strong></p>
+    </div>
+  </footer>
+</body>
+</html>
