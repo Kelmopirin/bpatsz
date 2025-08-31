@@ -3,6 +3,26 @@ import pandas as pd
 import re
 import os
 
+
+def is_empty_html(html_content):
+    keresztabla_első = soup.find('legend', string=re.compile("Kereszttábla.*első félév"))
+    if keresztabla_első:
+        keresztabla_első = keresztabla_első.find_parent('fieldset')
+        if keresztabla_első:
+            # Nézzük meg, van-e valódi adat a táblázatban
+            tabla = keresztabla_első.find('table')
+            if tabla:
+                # Üres táblázat esetén csak egy sor van fejléccel
+                sorok = tabla.find_all('tr')
+                if len(sorok) > 1:  # Több sor van, van adat
+                    return False
+                elif len(sorok) == 1:
+                    # Egy sor, de nézzük meg, van-e benne cella adat
+                    cellak = sorok[0].find_all('td')
+                    for cella in cellak:
+                        if cella.text.strip() and cella.text.strip() != '&nbsp;':
+                            return False
+    return True
 def extract_competition_data(html_content):
     """Verseny adatok kinyerése HTML tartalomból"""
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -188,19 +208,18 @@ def export_table_to_csv(competition_data,src):
     # Játékos ranglista
     players_df = pd.DataFrame(competition_data['player_rankings'])
     players_df.to_csv(f'{src}/jatekos_ranglista.csv', index=False, encoding='utf-8')
-    
-    print("\nAdatok exportálva CSV fájlokba!")
-def export_matches_to_csv(competition_data,src,fordulo):
+
+def export_matches_to_csv(competition_data,path):
     # Mérkőzések
-    directory = os.path.dirname(f"{src}/{fordulo}/")
+    directory = os.path.dirname(path+"/")
     if directory and not os.path.exists(directory):
         os.makedirs(directory, exist_ok=True)
     matches_df = pd.DataFrame(competition_data['matches'])
-    matches_df.to_csv(f'{src}/{fordulo}/merkozesek.csv', index=False, encoding='utf-8')
+    matches_df.to_csv(f'{path}/merkozesek.csv', index=False, encoding='utf-8')
     
 def main():
     # HTML fájl beolvasása
-    with open('index.html', 'r', encoding='utf-8') as file:
+    with open('test/index.html', 'r', encoding='utf-8') as file:
         html_content = file.read()
 
     # Adatok kinyerése
@@ -227,6 +246,7 @@ def main():
 
 
     # CSV exportálás (megjegyzésbe téve, ha nem szeretnéd)
-    export_to_csv(competition_data,"src")
+    export_table_to_csv(competition_data,"test/table")
+    export_matches_to_csv(competition_data,"test/table")
 if __name__ == "__main__":
     main()

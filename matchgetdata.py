@@ -202,14 +202,14 @@ def print_match_data(match_data):
 
 # HTML fájl beolvasása
 # Opcionális: adatok exportálása CSV fájlba
-def export_to_csv(match_data, src,fordulo,id):
+def export_to_csv(match_data, path):
     """Adatok exportálása CSV fájlba"""
     # Egyéni mérkőzések exportálása
-    directory = os.path.dirname(f"{src}/{fordulo}/{id}/")
+    directory = os.path.dirname(path+"/")
     if directory and not os.path.exists(directory):
         os.makedirs(directory, exist_ok=True)
     matches_df = pd.DataFrame(match_data['matches'])
-    matches_df.to_csv(f"{src}/{fordulo}/{id}/egyeni_merkozesek.csv", index=False, encoding='utf-8')
+    matches_df.to_csv(f"{path}/egyeni_merkozesek.csv", index=False, encoding='utf-8')
     
     # Egyéb információk exportálása
     other_data = {
@@ -224,12 +224,11 @@ def export_to_csv(match_data, src,fordulo,id):
         other_data[role] = [name]
     
     other_df = pd.DataFrame(other_data)
-    other_df.to_csv(f"{src}/{fordulo}/{id}/merkozes_adatok.csv", index=False, encoding='utf-8')
-    
-    print("Adatok exportálva CSV fájlokba!")
+    other_df.to_csv(f"{path}/merkozes_adatok.csv", index=False, encoding='utf-8')
+
 
 def main():
-    with open('mecslap.html', 'r', encoding='utf-8') as file:
+    with open('test/mecslap.html', 'r', encoding='utf-8') as file:
         html_content = file.read()
 
     # Adatok kinyerése
@@ -239,7 +238,9 @@ def main():
     print_match_data(match_data)
 
     # CSV exportálás (megjegyzésbe téve, ha nem szeretnéd)
-    export_to_csv(match_data,"src/meccslapok/test1")
+    if not os.path.exists("test/meccslapok/"):
+        os.makedirs("test/meccslapok/")
+    export_to_csv(match_data,"test/meccslapok")
 
 if __name__ == "__main__":
     main()
