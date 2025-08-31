@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
+import os
 
 def extract_match_data(html_content):
     """Mérkőzés adatok kinyerése HTML tartalomból"""
@@ -201,11 +202,14 @@ def print_match_data(match_data):
 
 # HTML fájl beolvasása
 # Opcionális: adatok exportálása CSV fájlba
-def export_to_csv(match_data, src):
+def export_to_csv(match_data, src,fordulo,id):
     """Adatok exportálása CSV fájlba"""
     # Egyéni mérkőzések exportálása
+    directory = os.path.dirname(f"{src}/{fordulo}/{id}/")
+    if directory and not os.path.exists(directory):
+        os.makedirs(directory, exist_ok=True)
     matches_df = pd.DataFrame(match_data['matches'])
-    matches_df.to_csv(f'{src}/egyeni_merkozesek.csv', index=False, encoding='utf-8')
+    matches_df.to_csv(f"{src}/{fordulo}/{id}/egyeni_merkozesek.csv", index=False, encoding='utf-8')
     
     # Egyéb információk exportálása
     other_data = {
@@ -220,7 +224,7 @@ def export_to_csv(match_data, src):
         other_data[role] = [name]
     
     other_df = pd.DataFrame(other_data)
-    other_df.to_csv(f'{src}/merkozes_adatok.csv', index=False, encoding='utf-8')
+    other_df.to_csv(f"{src}/{fordulo}/{id}/merkozes_adatok.csv", index=False, encoding='utf-8')
     
     print("Adatok exportálva CSV fájlokba!")
 

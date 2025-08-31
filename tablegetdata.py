@@ -179,6 +179,9 @@ def extract_player_rankings(soup):
 def export_table_to_csv(competition_data,src):
     """Adatok exportálása CSV fájlokba"""
     # Csapat tabella
+    directory = os.path.dirname(f"{src}/")
+    if directory and not os.path.exists(directory):
+        os.makedirs(directory, exist_ok=True)
     standings_df = pd.DataFrame(competition_data['team_standings'])
     standings_df.to_csv(f'{src}/csapat_tabella.csv', index=False, encoding='utf-8')
     
@@ -187,10 +190,13 @@ def export_table_to_csv(competition_data,src):
     players_df.to_csv(f'{src}/jatekos_ranglista.csv', index=False, encoding='utf-8')
     
     print("\nAdatok exportálva CSV fájlokba!")
-def export_matches_to_csv(competition_data,src):
-     # Mérkőzések
+def export_matches_to_csv(competition_data,src,fordulo):
+    # Mérkőzések
+    directory = os.path.dirname(f"{src}/{fordulo}/")
+    if directory and not os.path.exists(directory):
+        os.makedirs(directory, exist_ok=True)
     matches_df = pd.DataFrame(competition_data['matches'])
-    matches_df.to_csv(f'{src}/merkozesek.csv', index=False, encoding='utf-8')
+    matches_df.to_csv(f'{src}/{fordulo}/merkozesek.csv', index=False, encoding='utf-8')
     
 def main():
     # HTML fájl beolvasása
