@@ -1,9 +1,8 @@
-home_team,away_team,score
-Kőbánya SC I. ↔,Pestszentimrei PSE III.,9 : 7
-Budai XI SE II. ↔,BKV Előre SC I.,8 : 8
-MVM SE I. ↔,MAFC I.,11 : 5
-Pénzügyőr SE V. ↔,Igazságügyi SC I.,12 : 4
-OTP SK I. ↔,Pestújhelyi SC II.,9 : 7
-Budai XI SE I. ↔,EGIS SE I.,10 : 6
-BEAC I.-PPKO ↔,BVSC-Zugló III.-Sima Szoft,16 : 0
-Budai XI SE II. ↔,Budai XI SE I.,12 : 4
+match_id,home_team,away_team,score
+23043,Kőbánya SC I. ↔,ESMTK I.,15 : 1
+23039,Budai XI SE II. ↔,MAFC I.,13 : 3
+23041,MVM SE I. ↔,Pestszentimrei PSE III.,8 : 8
+23045,BKV Előre SC I. ↔,Pestújhelyi SC II.,10 : 6
+23042,Pénzügyőr SE V. ↔,EGIS SE I.,11 : 5
+23040,OTP SK I. ↔,Igazságügyi SC I.,9 : 7
+23237,Budai XI SE I. ↔,BVSC-Zugló III.-Sima Szoft,7 : 9

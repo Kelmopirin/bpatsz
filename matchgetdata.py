@@ -201,11 +201,11 @@ def print_match_data(match_data):
 
 # HTML fájl beolvasása
 # Opcionális: adatok exportálása CSV fájlba
-def export_to_csv(match_data):
+def export_to_csv(match_data, src):
     """Adatok exportálása CSV fájlba"""
     # Egyéni mérkőzések exportálása
     matches_df = pd.DataFrame(match_data['matches'])
-    matches_df.to_csv('src/meccslapok/egyeni_merkozesek.csv', index=False, encoding='utf-8')
+    matches_df.to_csv(f'{src}/egyeni_merkozesek.csv', index=False, encoding='utf-8')
     
     # Egyéb információk exportálása
     other_data = {
@@ -220,7 +220,7 @@ def export_to_csv(match_data):
         other_data[role] = [name]
     
     other_df = pd.DataFrame(other_data)
-    other_df.to_csv('src/meccslapok/merkozes_adatok.csv', index=False, encoding='utf-8')
+    other_df.to_csv(f'{src}/merkozes_adatok.csv', index=False, encoding='utf-8')
     
     print("Adatok exportálva CSV fájlokba!")
 
@@ -235,7 +235,7 @@ def main():
     print_match_data(match_data)
 
     # CSV exportálás (megjegyzésbe téve, ha nem szeretnéd)
-    export_to_csv(match_data)
+    export_to_csv(match_data,"src/meccslapok/test1")
 
 if __name__ == "__main__":
     main()

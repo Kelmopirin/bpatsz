@@ -1,11 +1,11 @@
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
+import os
 
 def extract_competition_data(html_content):
     """Verseny adatok kinyerése HTML tartalomból"""
     soup = BeautifulSoup(html_content, 'html.parser')
-    
     # Alap információk kinyerése
     competition_info = {
         'season': extract_season(soup),
@@ -64,13 +64,37 @@ def extract_matches(soup):
                     # Eredmény kinyerése
                     score_span = match.find('span', style=re.compile("float:right;.*font-size:16pt"))
                     score = score_span.text.strip() if score_span else "N/A"
-                    
+                    match_id = extract_match_id(match['href'])
                     matches.append({
+                        'match_id': match_id,
                         'home_team': home_team,
                         'away_team': away_team,
                         'score': score
                     })
     return matches
+def extract_match_id(html_content):
+    """Mérkőzés számának kinyerése a HTML tartalomból"""
+    try:
+        # Keresés a action=mecslap&id= számára
+        match = re.search(r'action=mecslap&id=(\d+)', html_content)
+        if match:
+            return match.group(1)
+    except:
+        pass
+    
+    # Alternatív keresés, ha az első nem működik
+    try:
+        soup = BeautifulSoup(html_content, 'html.parser')
+        back_link = soup.find('a', href=re.compile(r'javascript:history\.go\(-1\)'))
+        if back_link:
+            # Megpróbáljuk kinyerni az előző oldal URL-jéből
+            match = re.search(r'id=(\d+)', str(back_link))
+            if match:
+                return match.group(1)
+    except:
+        pass
+    
+    return "Ismeretlen"
 
 def extract_cross_table(soup, table_name):
     """Kereszttábla kinyerése"""
@@ -151,47 +175,52 @@ def extract_player_rankings(soup):
                         })
     return rankings
 
-# HTML fájl beolvasása
-with open('index.html', 'r', encoding='utf-8') as file:
-    html_content = file.read()
-
-# Adatok kinyerése
-competition_data = extract_competition_data(html_content)
-
-# Eredmények megjelenítése
-print("=== VERSENY ADATAI ===")
-print(f"Szezon: {competition_data['season']}")
-print(f"Osztály: {competition_data['class']}")
-print(f"Forduló: {competition_data['round']}")
-
-print("\n=== MÉRKŐZÉSEK ===")
-for i, match in enumerate(competition_data['matches'], 1):
-    print(f"{i}. {match['home_team']} - {match['away_team']}: {match['score']}")
-
-print("\n=== CSAPAT TABELLA ===")
-for team in competition_data['team_standings']:
-    print(f"{team['position']}. {team['team']} - Pont: {team['points']}")
-
-print("\n=== JÁTÉKOS RANGLISTA (első 5) ===")
-for player in competition_data['player_rankings'][:5]:
-    print(f"{player['position']}. {player['name']} - Győzelmi arány: {player['win_percentage']}")
-
 # Adatok exportálása CSV fájlba (opcionális)
-def export_to_csv(competition_data):
+def export_table_to_csv(competition_data,src):
     """Adatok exportálása CSV fájlokba"""
-    # Mérkőzések
-    matches_df = pd.DataFrame(competition_data['matches'])
-    matches_df.to_csv('src/merkozesek.csv', index=False, encoding='utf-8')
-    
     # Csapat tabella
     standings_df = pd.DataFrame(competition_data['team_standings'])
-    standings_df.to_csv('src/csapat_tabella.csv', index=False, encoding='utf-8')
+    standings_df.to_csv(f'{src}/csapat_tabella.csv', index=False, encoding='utf-8')
     
     # Játékos ranglista
     players_df = pd.DataFrame(competition_data['player_rankings'])
-    players_df.to_csv('src/jatekos_ranglista.csv', index=False, encoding='utf-8')
+    players_df.to_csv(f'{src}/jatekos_ranglista.csv', index=False, encoding='utf-8')
     
     print("\nAdatok exportálva CSV fájlokba!")
+def export_matches_to_csv(competition_data,src):
+     # Mérkőzések
+    matches_df = pd.DataFrame(competition_data['matches'])
+    matches_df.to_csv(f'{src}/merkozesek.csv', index=False, encoding='utf-8')
+    
+def main():
+    # HTML fájl beolvasása
+    with open('index.html', 'r', encoding='utf-8') as file:
+        html_content = file.read()
 
-# CSV exportálás (megjegyzésbe téve, ha nem szeretnéd)
-export_to_csv(competition_data)
+    # Adatok kinyerése
+    competition_data = extract_competition_data(html_content)
+
+    # Eredmények megjelenítése
+    print("=== VERSENY ADATAI ===")
+    print(f"Szezon: {competition_data['season']}")
+    print(f"Osztály: {competition_data['class']}")
+    print(f"Forduló: {competition_data['round']}")
+
+    print("\n=== MÉRKŐZÉSEK ===")
+    for i, match in enumerate(competition_data['matches'], 1):
+        print(f"{i}. {match['home_team']} - {match['away_team']}: {match['score']}")
+
+    print("\n=== CSAPAT TABELLA ===")
+    for team in competition_data['team_standings']:
+        print(f"{team['position']}. {team['team']} - Pont: {team['points']}")
+
+    print("\n=== JÁTÉKOS RANGLISTA (első 5) ===")
+    for player in competition_data['player_rankings'][:5]:
+        print(f"{player['position']}. {player['name']} - Győzelmi arány: {player['win_percentage']}")
+
+
+
+    # CSV exportálás (megjegyzésbe téve, ha nem szeretnéd)
+    export_to_csv(competition_data,"src")
+if __name__ == "__main__":
+    main()
