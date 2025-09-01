@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Török Attila,Gál Péter,"['11-9', '11-7', '9-11', '11-6']",3,1,1
+Török Attila,Lengyel Zoltán,"['11-7', '11-5', '11-3']",3,0,5
+Török Attila,Vajda József,"['11-8', '7-11', '11-7', '11-6']",3,1,9
+Török Attila,Lőrincz Sándor,"['13-11', '11-7', '11-8']",3,0,13
+Lázár Zsolt,Gál Péter,"['11-8', '9-11', '11-8', '8-11']",3,2,14
+Lázár Zsolt,Lengyel Zoltán,"['9-11', '11-1', '7-11', '11-6']",3,2,2
+Lázár Zsolt,Vajda József,"['11-4', '11-5', '11-6']",3,0,6
+Lázár Zsolt,Lőrincz Sándor,"['14-12', '9-11', '7-11', '11-5']",3,2,10
+Tárnok Péter András,Gál Péter,"['11-8', '11-6', '11-5']",3,0,11
+Tárnok Péter András,Lengyel Zoltán,"['11-5', '11-6', '11-4']",3,0,15
+Tárnok Péter András,Vajda József,"['11-8', '11-6', '9-11', '9-11']",2,3,3
+Tárnok Péter András,Lőrincz Sándor,"['11-1', '11-8', '11-8']",3,0,7
+Nincs játékos,Gál Péter,"['0-11', '0-11', '0-11']",0,3,8
+Nincs játékos,Lengyel Zoltán,"['0-11', '0-11', '0-11']",0,3,12
+Nincs játékos,Vajda József,"['0-11', '0-11', '0-11']",0,3,16
+Nincs játékos,Lőrincz Sándor,"['0-11', '0-11', '0-11']",0,3,4

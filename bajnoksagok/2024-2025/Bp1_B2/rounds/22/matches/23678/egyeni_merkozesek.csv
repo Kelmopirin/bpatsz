@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Botlik Gergő,Nagy Zoltán,"['12-10', '10-12', '9-11', '12-10']",3,2,1
+Botlik Gergő,Simon Krisztián,"['11-9', '11-13', '11-3', '9-11']",2,3,5
+Botlik Gergő,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,9
+Botlik Gergő,Papp Nándor,"['10-12', '11-3', '11-5', '11-7']",3,1,13
+Simon Gergő,Nagy Zoltán,"['11-8', '11-8', '8-11', '8-11']",3,2,14
+Simon Gergő,Simon Krisztián,"['11-8', '11-8', '19-17']",3,0,2
+Simon Gergő,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,6
+Simon Gergő,Papp Nándor,"['11-4', '8-11', '10-12', '11-2']",3,2,10
+Hegedűs Vince,Nagy Zoltán,"['11-7', '6-11', '7-11', '11-6']",2,3,11
+Hegedűs Vince,Simon Krisztián,"['11-4', '7-11', '7-11', '3-11']",1,3,15
+Hegedűs Vince,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,3
+Hegedűs Vince,Papp Nándor,"['11-8', '11-9', '6-11', '8-11']",2,3,7
+Váczi Attila Mihály,Nagy Zoltán,"['3-11', '11-7', '10-12', '9-11']",1,3,8
+Váczi Attila Mihály,Simon Krisztián,"['3-11', '7-11', '11-7', '3-11']",1,3,12
+Váczi Attila Mihály,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,16
+Váczi Attila Mihály,Papp Nándor,"['11-8', '11-6', '11-9']",3,0,4

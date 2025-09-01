@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Kelemen János,Karvák Attila,"['10-12', '9-11', '11-9', '7-11']",1,3,1
+Kelemen János,Bakó Endre,"['11-6', '9-11', '11-6', '8-11']",2,3,5
+Kelemen János,Csabai Csaba,"['11-8', '11-1', '8-11', '7-11']",3,2,9
+Kelemen János,Simon Dávid,"['11-5', '8-11', '3-11', '12-10']",2,3,13
+Gárdai Csaba,Karvák Attila,"['7-11', '6-11', '8-11']",0,3,14
+Gárdai Csaba,Bakó Endre,"['12-14', '7-11', '8-11']",0,3,2
+Gárdai Csaba,Csabai Csaba,"['6-11', '9-11', '11-7', '11-4']",3,2,6
+Gárdai Csaba,Simon Dávid,"['4-11', '6-11', '11-5', '6-11']",1,3,10
+Gönczöl Péter,Karvák Attila,"['16-14', '11-7', '5-11', '11-4']",3,1,11
+Gönczöl Péter,Bakó Endre,"['11-8', '8-11', '11-7', '14-16']",3,2,15
+Gönczöl Péter,Csabai Csaba,"['11-4', '9-11', '11-9', '11-8']",3,1,3
+Gönczöl Péter,Simon Dávid,"['11-13', '11-5', '11-4', '6-11']",3,2,7
+Tantó Attila,Karvák Attila,"['10-12', '6-11', '6-11']",0,3,8
+Tantó Attila,Bakó Endre,"['6-11', '9-11', '6-11']",0,3,12
+Tantó Attila,Csabai Csaba,"['14-16', '5-11', '8-11']",0,3,16
+Tantó Attila,Simon Dávid,"['6-11', '5-11', '5-11']",0,3,4
