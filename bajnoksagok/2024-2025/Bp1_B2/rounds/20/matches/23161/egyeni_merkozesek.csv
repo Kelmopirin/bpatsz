@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Bíró Csaba,Weidinger Zsolt,"['8-11', '11-7', '11-2', '9-11']",2,3,1
+Bíró Csaba,Tódor Attila,"['11-7', '11-13', '12-10', '5-11']",3,2,5
+Bíró Csaba,Horváth Zoltán,"['11-13', '13-11', '8-11', '6-11']",1,3,9
+Bíró Csaba,Freund Tamás,"['3-11', '2-11', '5-11']",0,3,13
+Schwáb Vilmos,Weidinger Zsolt,"['11-5', '8-11', '11-8', '11-7']",3,1,14
+Schwáb Vilmos,Tódor Attila,"['11-5', '11-6', '11-7']",3,0,2
+Schwáb Vilmos,Horváth Zoltán,"['8-11', '1-11', '7-11']",0,3,6
+Schwáb Vilmos,Freund Tamás,"['11-7', '9-11', '7-11', '8-11']",1,3,10
+Mészáros Bálint,Weidinger Zsolt,"['8-11', '8-11', '12-10', '13-11']",2,3,11
+Mészáros Bálint,Tódor Attila,"['7-11', '11-9', '9-11', '5-11']",1,3,15
+Mészáros Bálint,Horváth Zoltán,"['6-11', '13-11', '8-11', '7-11']",1,3,3
+Mészáros Bálint,Freund Tamás,"['5-11', '2-11', '5-11']",0,3,7
+Nincs játékos,Weidinger Zsolt,"['0-11', '0-11', '0-11']",0,3,8
+Nincs játékos,Tódor Attila,"['0-11', '0-11', '0-11']",0,3,12
+Nincs játékos,Horváth Zoltán,"['0-11', '0-11', '0-11']",0,3,16
+Nincs játékos,Freund Tamás,"['0-11', '0-11', '0-11']",0,3,4
