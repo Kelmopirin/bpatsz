@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Tóth Dániel István,Mészáros Attila,"['9-11', '9-11', '3-11']",0,3,1
+Tóth Dániel István,Galovics Márk,"['11-8', '8-11', '12-14', '8-11']",1,3,5
+Tóth Dániel István,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,9
+Tóth Dániel István,Kelemen Gyula,"['5-11', '7-11', '4-11']",0,3,13
+Pálfy Gyula,Mészáros Attila,"['9-11', '11-5', '11-9', '10-12']",3,2,14
+Pálfy Gyula,Galovics Márk,"['11-4', '11-3', '9-11', '14-12']",3,1,2
+Pálfy Gyula,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,6
+Pálfy Gyula,Kelemen Gyula,"['8-11', '14-16', '5-11']",0,3,10
+,Mészáros Attila,"['5-11', '8-11', '11-6', '8-11']",1,3,11
+,Galovics Márk,"['11-6', '8-11', '9-11', '9-11']",1,3,15
+,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,3
+,Kelemen Gyula,"['3-11', '6-11', '6-11']",0,3,7
+Nincs játékos,Mészáros Attila,"['0-11', '0-11', '0-11']",0,3,8
+Nincs játékos,Galovics Márk,"['0-11', '0-11', '0-11']",0,3,12
+Nincs játékos,Nincs játékos,[],,,16
+Nincs játékos,Kelemen Gyula,"['0-11', '0-11', '0-11']",0,3,4

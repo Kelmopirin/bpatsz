@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Mórocz Tamás,Szuhanyik György,"['11-4', '11-4', '5-11', '10-12']",3,2,1
+Mórocz Tamás,Vajda Zoltán Tamás,"['11-3', '11-4', '11-6']",3,0,5
+Mórocz Tamás,Bohus Pál,"['11-8', '11-6', '9-11', '11-2']",3,1,9
+Mórocz Tamás,Molnár András Gábor,"['11-8', '11-7', '11-2']",3,0,13
+Kiss Péter,Szuhanyik György,"['7-11', '11-9', '11-7', '11-8']",3,1,14
+Kiss Péter,Vajda Zoltán Tamás,"['11-6', '12-10', '11-5']",3,0,2
+Kiss Péter,Bohus Pál,"['6-11', '5-11', '11-9', '8-11']",1,3,6
+Kiss Péter,Molnár András Gábor,"['8-11', '5-11', '11-9', '4-11']",1,3,10
+Pölöskei András,Szuhanyik György,"['11-8', '12-10', '11-7']",3,0,11
+Pölöskei András,Vajda Zoltán Tamás,"['11-4', '11-4', '11-2']",3,0,15
+Pölöskei András,Bohus Pál,"['8-11', '11-3', '11-8', '11-9']",3,1,3
+Pölöskei András,Molnár András Gábor,"['11-8', '10-12', '9-11', '10-12']",1,3,7
+Nincs játékos,Szuhanyik György,"['0-11', '0-11', '0-11']",0,3,8
+Nincs játékos,Vajda Zoltán Tamás,"['0-11', '0-11', '0-11']",0,3,12
+Nincs játékos,Bohus Pál,"['0-11', '0-11', '0-11']",0,3,16
+Nincs játékos,Molnár András Gábor,"['0-11', '0-11', '0-11']",0,3,4

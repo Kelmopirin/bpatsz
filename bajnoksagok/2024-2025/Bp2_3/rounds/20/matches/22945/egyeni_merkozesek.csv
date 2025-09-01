@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Lajos Tibor,Papp Sándor,"['11-8', '8-11', '4-11', '9-11']",1,3,1
+Lajos Tibor,Gábor Norbert,"['5-11', '5-11', '7-11']",0,3,5
+Lajos Tibor,Németh Miksa,"['2-11', '7-11', '5-11']",0,3,9
+Lajos Tibor,Bercsényi Gábor dr.,"['11-4', '3-11', '7-11', '5-11']",1,3,13
+Dudás János András,Papp Sándor,"['9-11', '5-11', '6-11']",0,3,14
+Dudás János András,Gábor Norbert,"['6-11', '9-11', '7-11']",0,3,2
+Dudás János András,Németh Miksa,"['12-10', '10-12', '6-11', '5-11']",1,3,6
+Dudás János András,Bercsényi Gábor dr.,"['13-11', '11-5', '14-12']",3,0,10
+Pálfi Károly Márton,Papp Sándor,"['8-11', '7-11', '11-8', '5-11']",1,3,11
+Pálfi Károly Márton,Gábor Norbert,"['7-11', '7-11', '4-11']",0,3,15
+Pálfi Károly Márton,Németh Miksa,"['8-11', '7-11', '8-11']",0,3,3
+Pálfi Károly Márton,Bercsényi Gábor dr.,"['11-6', '11-6', '6-11', '3-11']",2,3,7
+Nincs játékos,Papp Sándor,"['0-11', '0-11', '0-11']",0,3,8
+Nincs játékos,Gábor Norbert,"['0-11', '0-11', '0-11']",0,3,12
+Nincs játékos,Németh Miksa,"['0-11', '0-11', '0-11']",0,3,16
+Nincs játékos,Bercsényi Gábor dr.,"['0-11', '0-11', '0-11']",0,3,4
