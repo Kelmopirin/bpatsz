@@ -1274,3 +1274,7 @@
 2025-09-01 04:00:04.179743 2020-2021 Bp1_B Üres Bajnokság
 2025-09-01 04:00:04.515905	Hiba a kinyervéssel: Üres Bajnokság
 2025-09-01 04:00:04.515905 2020-2021 Bp1_C Üres Bajnokság
+2025-09-01 08:59:47.146778	Log start
+2025-09-01 08:59:47.148376	2014-2015/Bp1_A Alredy downloaded
+2025-09-01 08:59:47.288234	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 08:59:47.288234 2014-2015 Bp1_B1 Üres Bajnokság
