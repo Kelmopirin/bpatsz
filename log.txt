@@ -1310,3 +1310,13 @@
 2025-09-01 09:00:20.145953 2017-2018 Bp1_B1 Üres Bajnokság
 2025-09-01 09:00:30.678913	Hiba a kinyervéssel: Üres Bajnokság
 2025-09-01 09:00:30.678913 2017-2018 Bp1_B2 Üres Bajnokság
+2025-09-01 09:00:35.624111	2017-2018/Bp2_1 Alredy downloaded
+2025-09-01 09:00:35.629820	2017-2018/Bp2_2 Alredy downloaded
+2025-09-01 09:00:35.633838	2017-2018/Bp2_3 Alredy downloaded
+2025-09-01 09:00:35.636112	2017-2018/Bp1_B Alredy downloaded
+2025-09-01 09:00:35.641937	2017-2018/Bp1_C Alredy downloaded
+2025-09-01 09:00:35.647491	2018-2019/Bp1_A Alredy downloaded
+2025-09-01 09:00:35.789216	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:00:35.790795 2018-2019 Bp1_B1 Üres Bajnokság
+2025-09-01 09:00:40.308184	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:00:40.308184 2018-2019 Bp1_B2 Üres Bajnokság
