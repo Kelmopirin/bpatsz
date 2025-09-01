@@ -79,6 +79,7 @@ def get_all(years,classes,logfile):
             if changed_data:
                 os.system("git add .")
                 os.system(f"git commit -m \"{bajnoksag['name']}/{osztaly['name']} done\"")
+                os.system("git push")
 def main():
     classes=pd.read_csv("src/classid.csv")
     years=pd.read_csv("src/yearid.csv")

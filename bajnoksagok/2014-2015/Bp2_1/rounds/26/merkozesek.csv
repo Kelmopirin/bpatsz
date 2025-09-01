@@ -1,0 +1,89 @@
+match_id,home_team,away_team,score
+9810,ABC Centerline III. ↔,Puskás DSK I.,9 : 7
+9837,KFKI Petőfi SK III. ↔,Budai XI SE VII.-Dunaholding,6 : 10
+9733,KSI SE IX.-MIKI II. ↔,Brumi Szöcske Team,11 : 5
+9734,OTP SK II. ↔,Lendület SE I.-Ybl Tervező,7 : 9
+9736,ESMTK II. ↔,BEAC II.-Magyar-Lakk DKK,11 : 5
+9735,Ikarus BSE II. ↔,SZUFLA SE III.,7 : 9
+9737,MAFC III.-PANCHO ↔,Budai XI SE VIII.-MAFILM,14 : 2
+9811,Erzsébeti Hajós III. ↔,Sanitas-Budó SE IV.,10 : 6
+9738,Budai XI SE VII.-Dunaholding ↔,MAFC III.-PANCHO,11 : 5
+9813,Puskás DSK I. ↔,KSI SE IX.-MIKI II.,12 : 4
+9838,Sanitas-Budó SE IV. ↔,KFKI Petőfi SK III.,7 : 9
+9812,BEAC II.-Magyar-Lakk DKK ↔,Erzsébeti Hajós III.,10 : 6
+9742,Budai XI SE VIII.-MAFILM ↔,ABC Centerline III.,3 : 13
+9740,Lendület SE I.-Ybl Tervező ↔,Ikarus BSE II.,13 : 3
+9739,SZUFLA SE III. ↔,ESMTK II.,6 : 10
+9741,Brumi Szöcske Team ↔,OTP SK II.,4 : 12
+9743,Ikarus BSE II. ↔,Brumi Szöcske Team,12 : 4
+9745,MAFC III.-PANCHO ↔,Sanitas-Budó SE IV.,8 : 8
+9814,OTP SK II. ↔,Puskás DSK I.,10 : 6
+9747,KSI SE IX.-MIKI II. ↔,ABC Centerline III.,8 : 8
+9815,Erzsébeti Hajós III. ↔,SZUFLA SE III.,2 : 14
+9744,ESMTK II. ↔,Lendület SE I.-Ybl Tervező,13 : 3
+9752,KSI SE IX.-MIKI II. ↔,OTP SK II.,9 : 7
+9749,Sanitas-Budó SE IV. ↔,Budai XI SE VIII.-MAFILM,11 : 5
+9748,ABC Centerline III. ↔,Budai XI SE VII.-Dunaholding,11 : 5
+9750,BEAC II.-Magyar-Lakk DKK ↔,MAFC III.-PANCHO,7 : 9
+9817,Puskás DSK I. ↔,Ikarus BSE II.,11 : 5
+9816,Lendület SE I.-Ybl Tervező ↔,Erzsébeti Hajós III.,10 : 6
+9840,SZUFLA SE III. ↔,KFKI Petőfi SK III.,16 : 0
+9751,Brumi Szöcske Team ↔,ESMTK II.,4 : 12
+9755,Budai XI SE VII.-Dunaholding ↔,Sanitas-Budó SE IV.,12 : 4
+9841,KFKI Petőfi SK III. ↔,Lendület SE I.-Ybl Tervező,5 : 11
+9757,OTP SK II. ↔,ABC Centerline III.,5 : 11
+9754,Budai XI SE VIII.-MAFILM ↔,BEAC II.-Magyar-Lakk DKK,4 : 12
+9818,ESMTK II. ↔,Puskás DSK I.,9 : 7
+9756,Ikarus BSE II. ↔,KSI SE IX.-MIKI II.,10 : 6
+9753,MAFC III.-PANCHO ↔,SZUFLA SE III.,9 : 7
+9819,Erzsébeti Hajós III. ↔,Brumi Szöcske Team,15 : 1
+9763,OTP SK II. ↔,Ikarus BSE II.,10 : 6
+9762,KSI SE IX.-MIKI II. ↔,ESMTK II.,4 : 12
+9758,ABC Centerline III. ↔,Sanitas-Budó SE IV.,12 : 4
+9759,BEAC II.-Magyar-Lakk DKK ↔,Budai XI SE VII.-Dunaholding,3 : 13
+9761,Lendület SE I.-Ybl Tervező ↔,MAFC III.-PANCHO,13 : 3
+9820,Puskás DSK I. ↔,Erzsébeti Hajós III.,12 : 4
+9760,SZUFLA SE III. ↔,Budai XI SE VIII.-MAFILM,15 : 1
+9842,Brumi Szöcske Team ↔,KFKI Petőfi SK III.,4 : 12
+9765,Budai XI SE VII.-Dunaholding ↔,SZUFLA SE III.,9 : 7
+9843,KFKI Petőfi SK III. ↔,Puskás DSK I.,5 : 11
+10095,Lendület SE I.-Ybl Tervező ↔,Budai XI SE VIII.-MAFILM,12 : 4
+9766,Sanitas-Budó SE IV. ↔,BEAC II.-Magyar-Lakk DKK,7 : 9
+9767,ESMTK II. ↔,OTP SK II.,13 : 3
+9768,Ikarus BSE II. ↔,ABC Centerline III.,8 : 8
+9764,MAFC III.-PANCHO ↔,Brumi Szöcske Team,14 : 2
+9821,Erzsébeti Hajós III. ↔,KSI SE IX.-MIKI II.,13 : 3
+9844,KSI SE IX.-MIKI II. ↔,KFKI Petőfi SK III.,4 : 0
+9823,OTP SK II. ↔,Erzsébeti Hajós III.,10 : 6
+9769,ABC Centerline III. ↔,BEAC II.-Magyar-Lakk DKK,8 : 8
+9773,Ikarus BSE II. ↔,ESMTK II.,4 : 12
+9822,Puskás DSK I. ↔,MAFC III.-PANCHO,7 : 9
+9771,Lendület SE I.-Ybl Tervező ↔,Budai XI SE VII.-Dunaholding,9 : 7
+9770,SZUFLA SE III. ↔,Sanitas-Budó SE IV.,15 : 1
+9772,Brumi Szöcske Team ↔,Budai XI SE VIII.-MAFILM,4 : 12
+9774,Budai XI SE VII.-Dunaholding ↔,Brumi Szöcske Team,14 : 1
+9825,Erzsébeti Hajós III. ↔,Ikarus BSE II.,4 : 0
+9845,KFKI Petőfi SK III. ↔,OTP SK II.,5 : 11
+9775,Sanitas-Budó SE IV. ↔,Lendület SE I.-Ybl Tervező,5 : 11
+9824,Budai XI SE VIII.-MAFILM ↔,Puskás DSK I.,1 : 15
+9776,BEAC II.-Magyar-Lakk DKK ↔,SZUFLA SE III.,4 : 12
+9778,ESMTK II. ↔,ABC Centerline III.,14 : 2
+9777,MAFC III.-PANCHO ↔,KSI SE IX.-MIKI II.,13 : 3
+9827,ESMTK II. ↔,Erzsébeti Hajós III.,8 : 8
+9783,OTP SK II. ↔,MAFC III.-PANCHO,9 : 7
+9782,KSI SE IX.-MIKI II. ↔,Budai XI SE VIII.-MAFILM,14 : 2
+9779,ABC Centerline III. ↔,SZUFLA SE III.,9 : 7
+9846,Ikarus BSE II. ↔,KFKI Petőfi SK III.,13 : 3
+9826,Puskás DSK I. ↔,Budai XI SE VII.-Dunaholding,8 : 8
+9780,Lendület SE I.-Ybl Tervező ↔,BEAC II.-Magyar-Lakk DKK,10 : 6
+9781,Brumi Szöcske Team ↔,Sanitas-Budó SE IV.,2 : 14
+9839,KFKI Petőfi SK III. ↔,BEAC II.-Magyar-Lakk DKK,6 : 10
+9746,Budai XI SE VIII.-MAFILM ↔,Budai XI SE VII.-Dunaholding,9 : 7
+9788,Budai XI SE VII.-Dunaholding ↔,KSI SE IX.-MIKI II.,11 : 5
+9847,KFKI Petőfi SK III. ↔,ESMTK II.,5 : 11
+9828,Sanitas-Budó SE IV. ↔,Puskás DSK I.,4 : 12
+9787,Budai XI SE VIII.-MAFILM ↔,OTP SK II.,3 : 13
+9784,BEAC II.-Magyar-Lakk DKK ↔,Brumi Szöcske Team,11 : 5
+9786,MAFC III.-PANCHO ↔,Ikarus BSE II.,8 : 8
+9785,SZUFLA SE III. ↔,Lendület SE I.-Ybl Tervező,4 : 12
+9829,Erzsébeti Hajós III. ↔,ABC Centerline III.,8 : 8
