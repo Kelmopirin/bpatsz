@@ -45,6 +45,10 @@ def get_all(years,classes,logfile):
         for osztaly in classes["name"].values:
             bajnoksag={"name":f"{year}-{year+1}","id":years.loc[years["year"]==year]["id"].values[0]}
             osztaly={ "name":osztaly,"id":classes.loc[classes["name"]==osztaly]["id"].values[0]}
+            if os.path.exists(f"bajnoksagok/{bajnoksag["name"]}/{osztaly["name"]}/rounds/30"):
+                logfile.write(f"{datetime.datetime.now()}\t{bajnoksag["name"]}/{osztaly["name"]} Alredy downloaded\n")
+                print(f"{bajnoksag['name']}/{osztaly["name"]} Alredy downloaded")
+                continue
             download_season_data(bajnoksag,osztaly,logfile)
 def main():
     classes=pd.read_csv("src/classid.csv")
