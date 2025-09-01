@@ -101,5 +101,9 @@ def main():
         finally:
             logfile.write(f"{datetime.datetime.now()}\tLog end\n")
             logfile.close()
+            os.system("git add .")
+            os.system(f"git commit -m \"Log end\"")
+            os.system("git push")
+            os.system("shutdown now -h")
 if __name__=="__main__":
     main()
