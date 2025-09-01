@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Villy Róbertt,Korabian Tamás,"['7-11', '11-7', '9-11', '5-11']",1,3,1
+Villy Róbertt,Ungvári László,"['11-7', '11-7', '11-3']",3,0,5
+Villy Róbertt,Bencsik Gábor,"['11-8', '11-9', '11-8']",3,0,9
+Villy Róbertt,Szabó László,"['5-11', '11-5', '11-8', '11-6']",3,1,13
+Király Krisztián,Korabian Tamás,"['5-11', '7-11', '9-11']",0,3,14
+Király Krisztián,Ungvári László,"['6-11', '13-15', '11-7', '7-11']",1,3,2
+Király Krisztián,Bencsik Gábor,"['6-11', '7-11', '8-11']",0,3,6
+Király Krisztián,Szabó László,"['5-11', '9-11', '11-6', '8-11']",1,3,10
+Nagy Zsolt,Korabian Tamás,"['6-11', '4-11', '11-3', '5-11']",1,3,11
+Nagy Zsolt,Ungvári László,"['11-9', '6-11', '11-8', '11-3']",3,1,15
+Nagy Zsolt,Bencsik Gábor,"['11-8', '5-11', '11-7', '11-9']",3,1,3
+Nagy Zsolt,Szabó László,"['11-7', '11-6', '11-6']",3,0,7
+Nincs játékos,Korabian Tamás,[],0,3,8
+Nincs játékos,Ungvári László,[],0,3,12
+Nincs játékos,Bencsik Gábor,[],0,3,16
+Nincs játékos,Szabó László,[],0,3,4

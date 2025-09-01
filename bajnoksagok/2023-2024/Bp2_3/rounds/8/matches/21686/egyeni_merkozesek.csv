@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Lajos Tibor,Gut József,"['1-11', '4-11', '5-11']",0,3,1
+Lajos Tibor,Gut Zoltán,"['3-11', '6-11', '5-11']",0,3,5
+Lajos Tibor,Gábor Norbert,"['4-11', '6-11', '10-12']",0,3,9
+Lajos Tibor,Németh Miksa,"['8-11', '4-11', '5-11']",0,3,13
+Szili Viktor,Gut József,"['11-9', '11-6', '11-9']",3,0,14
+Szili Viktor,Gut Zoltán,"['7-11', '8-11', '11-9', '4-11']",1,3,2
+Szili Viktor,Gábor Norbert,"['11-5', '11-9', '11-7']",3,0,6
+Szili Viktor,Németh Miksa,"['11-7', '6-11', '11-6', '11-6']",3,1,10
+Kis Szilárd,Gut József,"['7-11', '4-11', '8-11']",0,3,11
+Kis Szilárd,Gut Zoltán,"['9-11', '2-11', '6-11']",0,3,15
+Kis Szilárd,Gábor Norbert,"['9-11', '4-11', '8-11']",0,3,3
+Kis Szilárd,Németh Miksa,"['4-11', '9-11', '9-11']",0,3,7
+Dudás János András,Gut József,"['14-12', '9-11', '9-11', '9-11']",1,3,8
+Dudás János András,Gut Zoltán,"['11-5', '9-11', '8-11', '11-4']",3,2,12
+Dudás János András,Gábor Norbert,"['11-1', '9-11', '8-11', '11-6']",2,3,16
+Dudás János András,Németh Miksa,"['7-11', '6-11', '6-11']",0,3,4
