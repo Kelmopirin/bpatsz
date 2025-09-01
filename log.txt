@@ -1712,3 +1712,10 @@
 2025-09-01 10:26:35.028820	2024-2025/Bp1_B2/29 Alredy downloaded
 2025-09-01 10:26:35.028820	2024-2025/Bp1_B2/30 Alredy downloaded
 2025-09-01 10:28:05.458786	Log start
+2025-09-01 10:39:01.758061	Log start
+2025-09-01 10:42:49.680029	Hiba a kinyervéssel: HTTPConnectionPool(host='www.bpatsz.hu', port=80): Max retries exceeded with url: /bpatszenyr/index.php?bajnoksag=11&osztaly=29&fordulo=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A39E34E990>, 'Connection to www.bpatsz.hu timed out. (connect timeout=None)'))
+2025-09-01 10:42:49.680029 2014-2015 Bp1_B1 HTTPConnectionPool(host='www.bpatsz.hu', port=80): Max retries exceeded with url: /bpatszenyr/index.php?bajnoksag=11&osztaly=29&fordulo=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A39E34E990>, 'Connection to www.bpatsz.hu timed out. (connect timeout=None)'))
+2025-09-01 10:42:58.270705	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 10:42:58.270705 2014-2015 Bp1_B2 Üres Bajnokság
+2025-09-01 10:43:19.852968	Hiba a kinyervéssel: HTTPConnectionPool(host='www.bpatsz.hu', port=80): Max retries exceeded with url: /bpatszenyr/index.php?bajnoksag=11&osztaly=2&fordulo=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A39E34DF10>, 'Connection to www.bpatsz.hu timed out. (connect timeout=None)'))
+2025-09-01 10:43:19.853750 2014-2015 Bp2_1 HTTPConnectionPool(host='www.bpatsz.hu', port=80): Max retries exceeded with url: /bpatszenyr/index.php?bajnoksag=11&osztaly=2&fordulo=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A39E34DF10>, 'Connection to www.bpatsz.hu timed out. (connect timeout=None)'))
