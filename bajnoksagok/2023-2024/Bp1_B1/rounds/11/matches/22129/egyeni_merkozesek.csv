@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Oláh Levente,Krajczár István,"['2-11', '1-11', '1-11']",0,3,1
+Oláh Levente,Keresztesi László,"['1-11', '5-11', '6-11']",0,3,5
+Oláh Levente,Matis Ferenc,"['8-11', '3-11', '3-11']",0,3,9
+Oláh Levente,Bálint Sándor,"['7-11', '5-11', '8-11']",0,3,13
+Soproni József,Krajczár István,"['4-11', '9-11', '12-10', '10-12']",1,3,14
+Soproni József,Keresztesi László,"['11-9', '11-8', '12-10']",3,0,2
+Soproni József,Matis Ferenc,"['11-7', '11-8', '11-2']",3,0,6
+Soproni József,Bálint Sándor,"['11-7', '11-7', '11-9']",3,0,10
+Kakas Norbert,Krajczár István,"['8-11', '8-11', '10-12']",0,3,11
+Kakas Norbert,Keresztesi László,"['12-10', '11-8', '11-8']",3,0,15
+Kakas Norbert,Matis Ferenc,"['11-9', '9-11', '3-11', '11-8']",3,2,3
+Kakas Norbert,Bálint Sándor,"['11-9', '9-11', '11-5', '7-11']",2,3,7
+Nincs játékos,Krajczár István,[],0,3,8
+Nincs játékos,Keresztesi László,[],0,3,12
+Nincs játékos,Matis Ferenc,[],0,3,16
+Nincs játékos,Bálint Sándor,[],0,3,4

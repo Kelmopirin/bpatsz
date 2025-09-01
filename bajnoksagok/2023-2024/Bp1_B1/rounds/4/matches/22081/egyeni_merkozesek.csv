@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Ambrus Ákos,Bodon Attila,"['12-10', '8-11', '7-11', '6-11']",1,3,1
+Ambrus Ákos,Dudás István,"['11-9', '9-11', '9-11', '9-11']",1,3,5
+Ambrus Ákos,Hagymási András,"['6-11', '2-11', '4-11']",0,3,9
+Ambrus Ákos,Bodnár Attila,"['12-14', '4-11', '11-6', '11-13']",1,3,13
+Oláh Levente,Bodon Attila,"['6-11', '7-11', '5-11']",0,3,14
+Oláh Levente,Dudás István,"['12-10', '9-11', '8-11', '13-11']",2,3,2
+Oláh Levente,Hagymási András,"['9-11', '2-11', '11-9', '4-11']",1,3,6
+Oláh Levente,Bodnár Attila,"['9-11', '6-11', '11-9', '11-6']",2,3,10
+Kakas Norbert,Bodon Attila,"['10-12', '6-11', '5-11']",0,3,11
+Kakas Norbert,Dudás István,"['11-3', '3-11', '11-13', '1-11']",1,3,15
+Kakas Norbert,Hagymási András,"['13-11', '8-11', '9-11', '4-11']",1,3,3
+Kakas Norbert,Bodnár Attila,"['11-6', '11-7', '12-10']",3,0,7
+Nincs játékos,Bodon Attila,[],0,3,8
+Nincs játékos,Dudás István,[],0,3,12
+Nincs játékos,Hagymási András,[],0,3,16
+Nincs játékos,Bodnár Attila,[],0,3,4

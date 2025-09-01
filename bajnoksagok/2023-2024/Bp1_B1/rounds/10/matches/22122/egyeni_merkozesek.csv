@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Simon Péter,Tóth Márta,"['11-6', '11-7', '7-11', '11-8']",3,1,1
+Simon Péter,Szalai István,"['7-11', '11-4', '11-5', '8-11']",3,2,5
+Simon Péter,Orosz Ferenc,"['11-6', '11-5', '11-8']",3,0,9
+Simon Péter,Botár Attila,"['11-4', '11-8', '5-11', '11-4']",3,1,13
+Horváth Kálmán,Tóth Márta,"['11-5', '11-8', '8-11', '11-5']",3,1,14
+Horváth Kálmán,Szalai István,"['11-4', '11-7', '11-9']",3,0,2
+Horváth Kálmán,Orosz Ferenc,"['11-6', '11-4', '11-3']",3,0,6
+Horváth Kálmán,Botár Attila,"['11-8', '7-11', '11-5', '11-4']",3,1,10
+Gubai György,Tóth Márta,"['11-1', '11-13', '11-7', '13-11']",3,1,11
+Gubai György,Szalai István,"['6-11', '4-11', '6-11']",0,3,15
+Gubai György,Orosz Ferenc,"['7-11', '11-5', '11-9', '11-4']",3,1,3
+Gubai György,Botár Attila,"['7-11', '8-11', '11-13']",0,3,7
+Sztranyan János,Tóth Márta,"['4-11', '11-13', '5-11']",0,3,8
+Sztranyan János,Szalai István,"['8-11', '10-12', '11-4', '7-11']",1,3,12
+Sztranyan János,Orosz Ferenc,"['2-11', '11-9', '5-11', '5-11']",1,3,16
+Sztranyan János,Botár Attila,"['9-11', '11-9', '3-11', '11-9']",2,3,4

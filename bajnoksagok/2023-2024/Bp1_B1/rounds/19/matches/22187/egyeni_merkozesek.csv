@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Botár Attila,Strobel Soma,"['4-11', '11-9', '11-9', '10-12']",3,2,1
+Botár Attila,Medgyes Egon,"['11-7', '11-6', '8-11', '11-9']",3,1,5
+Botár Attila,Kovács Szilárd,"['11-2', '11-8', '11-7']",3,0,9
+Botár Attila,Bali Péter,"['6-11', '11-8', '7-11', '9-11']",1,3,13
+Szalai István,Strobel Soma,"['7-11', '9-11', '8-11']",0,3,14
+Szalai István,Medgyes Egon,"['8-11', '11-8', '11-6', '6-11']",3,2,2
+Szalai István,Kovács Szilárd,"['11-7', '11-13', '12-10', '9-11']",3,2,6
+Szalai István,Bali Péter,"['11-4', '5-11', '10-12', '8-11']",1,3,10
+Tóth MártaMarosán Tamás,Strobel Soma,"['11-8', '11-9', '11-7']",3,0,11
+Tóth MártaMarosán Tamás,Medgyes Egon,"['8-11', '8-11', '7-11']",0,3,15
+Tóth MártaMarosán Tamás,Kovács Szilárd,"['11-7', '9-11', '5-11', '8-11']",1,3,3
+Tóth MártaMarosán Tamás,Bali Péter,"['6-11', '8-11', '11-7', '7-11']",1,3,7
+Orosz Ferenc,Strobel Soma,"['12-10', '8-11', '5-11', '12-14']",1,3,8
+Orosz Ferenc,Medgyes Egon,[],2,3,12
+Orosz Ferenc,Kovács Szilárd,"['5-11', '11-8', '11-13', '11-9']",2,3,16
+Orosz Ferenc,Bali Péter,"['8-11', '11-8', '4-11', '14-12']",2,3,4
