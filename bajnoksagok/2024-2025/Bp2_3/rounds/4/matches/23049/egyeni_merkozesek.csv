@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Bakó Szilvia,Sólyomi Péter,"['9-11', '11-4', '11-4', '11-3']",3,1,1
+Bakó Szilvia,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,5
+Bakó Szilvia,Urbán Erika,"['8-11', '11-6', '7-11', '11-9']",3,2,9
+Bakó Szilvia,Nemes Gábor,"['6-11', '9-11', '8-11']",0,3,13
+Jurik Andrea,Sólyomi Péter,"['11-6', '11-5', '11-7']",3,0,14
+Jurik Andrea,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,2
+Jurik Andrea,Urbán Erika,"['10-12', '6-11', '3-11']",0,3,6
+Jurik Andrea,Nemes Gábor,"['5-11', '10-12', '3-11']",0,3,10
+Aszalos Péter,Sólyomi Péter,"['12-14', '7-11', '4-11']",0,3,11
+Aszalos Péter,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,15
+Aszalos Péter,Urbán Erika,"['3-11', '5-11', '7-11']",0,3,3
+Aszalos Péter,Nemes Gábor,"['5-11', '10-12', '3-11']",0,3,7
+Nincs játékos,Sólyomi Péter,"['0-11', '0-11', '0-11']",0,3,8
+Nincs játékos,Nincs játékos,[],,,12
+Nincs játékos,Urbán Erika,"['0-11', '0-11', '0-11']",0,3,16
+Nincs játékos,Nemes Gábor,"['0-11', '0-11', '0-11']",0,3,4
