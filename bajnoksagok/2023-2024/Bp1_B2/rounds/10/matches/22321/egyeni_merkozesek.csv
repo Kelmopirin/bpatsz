@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Kávássy Lóránd,Váczi Attila Mihály,"['9-11', '9-11', '11-7', '11-7']",3,2,1
+Kávássy Lóránd,Botlik Gergő,"['4-11', '11-7', '7-11', '11-8']",3,2,5
+Kávássy Lóránd,Katus Ferenc,"['7-11', '9-11', '11-13']",0,3,9
+Kávássy Lóránd,Simon Gergő,"['11-7', '11-9', '11-6']",3,0,13
+Szűcs Krisztián,Váczi Attila Mihály,"['9-11', '11-7', '6-11', '11-7']",3,2,14
+Szűcs Krisztián,Botlik Gergő,"['8-11', '8-11', '6-11']",0,3,2
+Szűcs Krisztián,Katus Ferenc,"['8-11', '3-11', '12-14']",1,3,6
+Szűcs Krisztián,Simon Gergő,"['5-11', '9-11', '7-11']",0,3,10
+Zacher Gizella,Váczi Attila Mihály,"['11-6', '11-9', '11-8']",3,0,11
+Zacher Gizella,Botlik Gergő,"['12-14', '10-12', '9-11']",0,3,15
+Zacher Gizella,Katus Ferenc,"['13-15', '4-11', '11-7', '9-11']",1,3,3
+Zacher Gizella,Simon Gergő,"['6-11', '11-6', '12-10', '6-11']",2,3,7
+Katona Gábor,Váczi Attila Mihály,"['11-9', '16-14', '11-6']",3,0,8
+Katona Gábor,Botlik Gergő,"['7-11', '11-13', '6-11']",1,3,12
+Katona Gábor,Katus Ferenc,"['4-11', '7-11', '11-6', '5-11']",1,3,16
+Katona Gábor,Simon Gergő,"['4-11', '7-11', '11-6']",1,3,4

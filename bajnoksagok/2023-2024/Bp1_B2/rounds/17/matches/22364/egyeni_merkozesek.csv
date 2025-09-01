@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Kávássy Lóránd,Lázár Zsolt,"['10-12', '6-11', '9-11']",0,3,1
+Kávássy Lóránd,Kelemen József ifj.,['6-11'],3,1,5
+Kávássy Lóránd,Kapuszta Csaba,"['11-6', '11-8', '11-9']",3,0,9
+Kávássy Lóránd,Szandi Nándor Mihály,"['8-11', '11-9', '11-6', '11-8']",3,1,13
+Zacher Gizella,Lázár Zsolt,"['11-9', '11-5', '11-7']",3,0,14
+Zacher Gizella,Kelemen József ifj.,"['9-11', '8-11', '7-11']",0,3,2
+Zacher Gizella,Kapuszta Csaba,"['11-9', '9-11', '11-8', '11-5']",3,1,6
+Zacher Gizella,Szandi Nándor Mihály,"['9-11', '11-8', '10-12', '11-4']",2,3,10
+Populás György,Lázár Zsolt,"['6-11', '7-11', '9-11']",0,3,11
+Populás György,Kelemen József ifj.,"['7-11', '12-14', '11-4', '11-5']",3,2,15
+Populás György,Kapuszta Csaba,"['8-11', '7-11', '6-11']",0,3,3
+Populás György,Szandi Nándor Mihály,"['11-9', '11-7', '8-11', '11-6']",3,1,7
+Szűcs Krisztián,Lázár Zsolt,"['9-11', '11-7', '2-11', '11-7']",3,2,8
+Szűcs Krisztián,Kelemen József ifj.,"['7-11', '11-6', '11-9', '11-7']",3,1,12
+Szűcs Krisztián,Kapuszta Csaba,"['7-11', '8-11', '11-6', '11-9']",3,2,16
+Szűcs Krisztián,Szandi Nándor Mihály,"['10-12', '11-9', '11-8', '10-12']",2,3,4

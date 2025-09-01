@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Berki Balázs dr.,Nagy Tamás,"['11-6', '7-11', '1-11', '11-7']",3,2,1
+Berki Balázs dr.,Simon Gergő,"['11-13', '4-11', '14-16']",0,3,5
+Berki Balázs dr.,Váczi Attila Mihály,"['11-13', '4-11', '6-11']",0,3,9
+Berki Balázs dr.,Botlik Gergő,"['8-11', '7-11', '11-4', '4-11']",1,3,13
+Szabó Tamás,Nagy Tamás,"['11-5', '11-4', '11-5']",3,0,14
+Szabó Tamás,Simon Gergő,"['6-11', '13-11', '3-11', '8-11']",1,3,2
+Szabó Tamás,Váczi Attila Mihály,"['12-10', '11-6', '11-8']",3,0,6
+Szabó Tamás,Botlik Gergő,"['7-11', '11-5', '10-12', '8-11']",1,3,10
+Nincs játékos,Nagy Tamás,[],0,3,11
+Nincs játékos,Simon Gergő,[],0,3,15
+Nincs játékos,Váczi Attila Mihály,[],0,3,3
+Nincs játékos,Botlik Gergő,[],0,3,7
+Németh Tamás,Nagy Tamás,"['8-11', '11-6', '11-9', '11-4']",3,1,8
+Németh Tamás,Simon Gergő,"['11-6', '11-9', '11-7']",3,0,12
+Németh Tamás,Váczi Attila Mihály,"['9-11', '11-7', '5-11', '11-4']",3,2,16
+Németh Tamás,Botlik Gergő,"['11-13', '11-8', '11-6', '7-11']",2,3,4
