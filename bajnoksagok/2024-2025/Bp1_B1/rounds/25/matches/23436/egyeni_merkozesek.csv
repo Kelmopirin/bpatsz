@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Nguyen Duc Dániel,Simon Péter,"['12-10', '8-11', '8-11', '9-11']",1,3,1
+Nguyen Duc Dániel,Szalay Tamás dr.,"['11-4', '7-11', '7-11', '7-11']",1,3,5
+Nguyen Duc Dániel,Bakó Oszkár,"['9-11', '6-11', '11-4', '5-11']",1,3,9
+Nguyen Duc Dániel,Horváth Kálmán,"['5-11', '8-11', '8-11']",0,3,13
+Nguyen Anh Phuong,Simon Péter,"['6-11', '7-11', '11-8', '11-9']",2,3,14
+Nguyen Anh Phuong,Szalay Tamás dr.,"['4-11', '11-9', '11-8', '11-5']",3,1,2
+Nguyen Anh Phuong,Bakó Oszkár,"['5-11', '5-11', '9-11']",0,3,6
+Nguyen Anh Phuong,Horváth Kálmán,"['5-11', '11-4', '11-9', '14-16']",2,3,10
+Tran Trung Kien,Simon Péter,"['8-11', '9-11', '15-13', '7-11']",1,3,11
+Tran Trung Kien,Szalay Tamás dr.,"['13-15', '9-11', '11-7', '11-8']",2,3,15
+Tran Trung Kien,Bakó Oszkár,"['8-11', '3-11', '9-11']",0,3,3
+Tran Trung Kien,Horváth Kálmán,"['13-11', '7-11', '11-3', '4-11']",3,2,7
+Sinka Csaba,Simon Péter,"['11-5', '5-11', '6-11', '11-9']",3,2,8
+Sinka Csaba,Szalay Tamás dr.,"['11-8', '3-11', '6-11', '11-5']",2,3,12
+Sinka Csaba,Bakó Oszkár,"['11-8', '5-11', '8-11', '11-8']",2,3,16
+Sinka Csaba,Horváth Kálmán,"['13-11', '4-11', '11-6', '4-11']",2,3,4

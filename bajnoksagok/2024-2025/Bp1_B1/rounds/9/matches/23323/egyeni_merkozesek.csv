@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Szántó Gyula,Borsos András,"['11-4', '11-2', '11-5']",3,0,1
+Szántó Gyula,Szabó Dénes,"['11-4', '11-3', '11-3']",3,0,5
+Szántó Gyula,Balog Tamás,"['11-6', '11-5', '11-6']",3,0,9
+Szántó Gyula,Bódis Attila,"['5-11', '11-6', '11-4', '11-9']",3,1,13
+Mühl Ágnes,Borsos András,"['11-13', '11-8', '5-11', '11-8']",3,2,14
+Mühl Ágnes,Szabó Dénes,"['11-3', '11-5', '14-16', '11-6']",3,1,2
+Mühl Ágnes,Balog Tamás,"['11-6', '11-6', '11-7']",3,0,6
+Mühl Ágnes,Bódis Attila,"['12-10', '11-6', '11-4']",3,0,10
+Péntek Tibor,Borsos András,"['11-9', '11-5', '11-4']",3,0,11
+Péntek Tibor,Szabó Dénes,"['11-8', '4-11', '11-7', '10-12']",3,2,15
+Péntek Tibor,Balog Tamás,"['11-2', '11-9', '11-6']",3,0,3
+Péntek Tibor,Bódis Attila,"['11-8', '10-12', '9-11', '11-9']",2,3,7
+Oláh Attila,Borsos András,"['14-12', '6-11', '11-8', '13-11']",3,1,8
+Oláh Attila,Szabó Dénes,"['11-7', '7-11', '11-8', '7-11']",3,2,12
+Oláh Attila,Balog Tamás,"['11-8', '10-12', '5-11', '11-8']",2,3,16
+Oláh Attila,Bódis Attila,"['9-11', '6-11', '4-11']",0,3,4

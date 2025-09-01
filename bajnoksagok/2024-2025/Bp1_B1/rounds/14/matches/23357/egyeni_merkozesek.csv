@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Szántó Gyula,Nguyen Duc Dániel,"['11-8', '11-7', '11-7']",3,0,1
+Szántó Gyula,Nguyen Anh Phuong,"['11-7', '11-9', '11-5']",3,0,5
+Szántó Gyula,Kovács Krisztián,"['11-4', '11-5', '11-4']",3,0,9
+Szántó Gyula,Sinka Csaba,"['11-4', '12-14', '11-7', '6-11']",3,2,13
+Péntek Tibor,Nguyen Duc Dániel,"['3-11', '3-11', '9-11']",0,3,14
+Péntek Tibor,Nguyen Anh Phuong,"['7-11', '11-5', '8-11', '10-12']",1,3,2
+Péntek Tibor,Kovács Krisztián,"['7-11', '12-10', '4-11', '9-11']",1,3,6
+Péntek Tibor,Sinka Csaba,"['6-11', '5-11', '8-11']",0,3,10
+Radu Doru,Nguyen Duc Dániel,"['9-11', '13-11', '7-11', '3-11']",1,3,11
+Radu Doru,Nguyen Anh Phuong,"['9-11', '11-9', '11-5', '10-12']",2,3,15
+Radu Doru,Kovács Krisztián,"['11-6', '8-11', '12-10', '13-11']",3,1,3
+Radu Doru,Sinka Csaba,"['11-9', '11-8', '7-11', '12-10']",3,1,7
+Oláh Attila,Nguyen Duc Dániel,"['11-8', '12-10', '9-11', '3-11']",3,2,8
+Oláh Attila,Nguyen Anh Phuong,"['6-11', '11-9', '11-9', '6-11']",2,3,12
+Oláh Attila,Kovács Krisztián,"['7-11', '9-11', '11-6', '11-8']",3,2,16
+Oláh Attila,Sinka Csaba,"['11-7', '7-11', '6-11', '11-13']",1,3,4

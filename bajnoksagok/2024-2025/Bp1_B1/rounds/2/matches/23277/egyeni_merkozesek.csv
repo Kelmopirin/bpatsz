@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Gulyás Áron,Nguyen Anh Phuong,"['7-11', '7-11', '8-11']",0,3,1
+Gulyás Áron,Tran Trung Kien,"['12-10', '8-11', '11-9', '13-11']",3,1,5
+Gulyás Áron,Nguyen Duc Dániel,"['6-11', '5-11', '9-11']",0,3,9
+Gulyás Áron,Kovács Krisztián,"['11-6', '10-12', '11-7', '10-12']",2,3,13
+Brázai Balázs Botond,Nguyen Anh Phuong,"['5-11', '11-6', '11-7', '11-9']",3,1,14
+Brázai Balázs Botond,Tran Trung Kien,"['12-10', '11-3', '11-5']",3,0,2
+Brázai Balázs Botond,Nguyen Duc Dániel,"['11-8', '11-6', '11-13', '11-8']",3,1,6
+Brázai Balázs Botond,Kovács Krisztián,"['11-7', '11-9', '11-1']",3,0,10
+Brázai Béla,Nguyen Anh Phuong,"['11-8', '11-7', '10-12', '12-10']",3,1,11
+Brázai Béla,Tran Trung Kien,"['12-14', '10-12', '6-11']",0,3,15
+Brázai Béla,Nguyen Duc Dániel,"['11-13', '8-11', '10-12']",0,3,3
+Brázai Béla,Kovács Krisztián,"['11-8', '7-11', '14-12', '13-11']",3,1,7
+Janzsó Gergely,Nguyen Anh Phuong,"['13-15', '10-12', '11-5', '11-8']",2,3,8
+Janzsó Gergely,Tran Trung Kien,"['8-11', '7-11', '11-7', '11-3']",3,2,12
+Janzsó Gergely,Nguyen Duc Dániel,"['11-6', '10-12', '10-12', '11-9']",2,3,16
+Janzsó Gergely,Kovács Krisztián,"['9-11', '11-2', '11-7', '6-11']",2,3,4
