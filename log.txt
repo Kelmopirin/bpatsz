@@ -1634,3 +1634,7 @@
 2025-09-01 09:26:23.677260	2022-2023/Bp1_B1/1 Alredy downloaded
 2025-09-01 09:26:23.677260	2022-2023/Bp1_B1/2 Alredy downloaded
 2025-09-01 09:26:23.677260	2022-2023/Bp1_B1/3 Alredy downloaded
+2025-09-01 09:41:04.150809	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:41:04.150809 2022-2023 Bp1_B Üres Bajnokság
+2025-09-01 09:41:04.482489	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:41:04.482489 2022-2023 Bp1_C Üres Bajnokság
