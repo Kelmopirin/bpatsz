@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Molnár Gábor,Hadnagy Levente,"['3-11', '12-10', '9-11', '7-11']",1,3,1
+Molnár Gábor,Butyka Gyöngyi,"['1-11', '5-11', '5-11']",0,3,5
+Molnár Gábor,Székely Péter,"['13-11', '9-11', '6-11', '11-8']",2,3,9
+Molnár Gábor,Baluka Tamás,"['7-11', '8-11', '7-11']",0,3,13
+Hegedűs László,Hadnagy Levente,"['11-5', '4-11', '3-11', '8-11']",1,3,14
+Hegedűs László,Butyka Gyöngyi,"['14-12', '11-9', '3-11', '7-11']",2,3,2
+Hegedűs László,Székely Péter,"['11-9', '11-8', '17-15']",3,0,6
+Hegedűs László,Baluka Tamás,"['5-11', '14-12', '1-11', '6-11']",1,3,10
+Pállay Gergely,Hadnagy Levente,"['6-11', '11-8', '12-10', '3-11']",3,2,11
+Pállay Gergely,Butyka Gyöngyi,"['11-9', '5-11', '16-14', '11-7']",3,1,15
+Pállay Gergely,Székely Péter,"['11-7', '11-9', '5-11', '4-11']",3,2,3
+Pállay Gergely,Baluka Tamás,"['4-11', '11-8', '9-11', '6-11']",1,3,7
+Nincs játékos,Hadnagy Levente,"['0-11', '0-11', '0-11']",0,3,8
+Nincs játékos,Butyka Gyöngyi,"['0-11', '0-11', '0-11']",0,3,12
+Nincs játékos,Székely Péter,"['0-11', '0-11', '0-11']",0,3,16
+Nincs játékos,Baluka Tamás,"['0-11', '0-11', '0-11']",0,3,4
