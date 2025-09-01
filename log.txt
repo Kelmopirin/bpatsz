@@ -1806,3 +1806,7 @@
 2025-09-01 13:09:09.895735 2020-2021 Bp1_B Üres Bajnokság
 2025-09-01 13:09:10.224028	Hiba a kinyervéssel: Üres Bajnokság
 2025-09-01 13:09:10.224028 2020-2021 Bp1_C Üres Bajnokság
+2025-09-01 13:24:45.966652	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 13:24:45.967880 2021-2022 Bp1_B Üres Bajnokság
+2025-09-01 13:24:46.303811	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 13:24:46.303811 2021-2022 Bp1_C Üres Bajnokság
