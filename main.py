@@ -37,8 +37,8 @@ def download_season_data(bajnoksag,osztaly,logfile):
     logfile.flush()
     return changed_data
 def get_player_data(player_id):
-    src=f"http://www.bpatsz.hu/bpatszenyr/egyeni-bajnokilista.php"
-    response=requests.post(src,data={"bajnokiev":27,"engszam":21614})
+    src="http://www.bpatsz.hu/bpatszenyr/egyeni-bajnokilista.php"
+    response=requests.post(src,data={"bajnokiev":27,"engszam":player_id})
     if response.status_code==200:
         return response.text
     else:
