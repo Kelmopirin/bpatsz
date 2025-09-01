@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Biczó Márton,Kőhidai Zsolt,"['5-11', '11-6', '11-9', '11-8']",3,1,1
+Biczó Márton,Bányai Zoltán,"['4-11', '4-11', '7-11']",0,3,5
+Biczó Márton,Schindler István,"['11-3', '11-3', '11-4']",3,0,9
+Biczó Márton,Galambos Csaba,"['4-11', '6-11', '8-11']",0,3,13
+Lehel László,Kőhidai Zsolt,"['11-2', '11-7', '11-7']",3,0,14
+Lehel László,Bányai Zoltán,"['8-11', '5-11', '6-11']",0,3,2
+Lehel László,Schindler István,[],3,0,6
+Lehel László,Galambos Csaba,"['6-11', '11-5', '8-11', '6-11']",1,3,10
+Katus Ferenc,Kőhidai Zsolt,"['11-4', '11-3', '11-8']",3,0,11
+Katus Ferenc,Bányai Zoltán,"['5-11', '5-11', '6-11']",0,3,15
+Katus Ferenc,Schindler István,"['11-6', '11-7', '11-8']",3,0,3
+Katus Ferenc,Galambos Csaba,"['13-11', '11-7', '11-9']",3,0,7
+Markovits I Tamás,Kőhidai Zsolt,"['11-9', '11-3', '4-11', '11-9']",3,1,8
+Markovits I Tamás,Bányai Zoltán,"['6-11', '7-11', '9-11']",0,3,12
+Markovits I Tamás,Schindler István,"['11-7', '11-5', '8-11', '11-9']",3,1,16
+Markovits I Tamás,Galambos Csaba,"['11-6', '9-11', '7-11', '10-12']",1,3,4

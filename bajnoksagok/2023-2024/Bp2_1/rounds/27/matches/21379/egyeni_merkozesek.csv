@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Markovits I Tamás,Holecz Barna,"['11-8', '11-1', '11-7']",3,0,1
+Markovits I Tamás,Murai Dan Titus,"['11-8', '12-10', '8-11', '11-6']",3,1,5
+Markovits I Tamás,Szöllősy Gábor,"['10-12', '11-5', '10-12', '11-2']",2,3,9
+Markovits I Tamás,Nincs játékos,[],3,0,13
+Lehel László,Holecz Barna,"['11-4', '13-11', '7-11', '11-7']",3,1,14
+Lehel László,Murai Dan Titus,"['11-6', '11-6', '16-14']",3,0,2
+Lehel László,Szöllősy Gábor,"['11-13', '11-8', '15-13', '8-11']",3,2,6
+Lehel László,Nincs játékos,[],3,0,10
+Katus Ferenc,Holecz Barna,"['11-6', '11-8', '11-6']",3,0,11
+Katus Ferenc,Murai Dan Titus,"['11-5', '11-6', '11-7']",3,0,15
+Katus Ferenc,Szöllősy Gábor,"['11-9', '13-11', '16-14']",3,0,3
+Katus Ferenc,Nincs játékos,[],3,0,7
+Biczó Márton,Holecz Barna,"['7-11', '14-16', '10-12']",0,3,8
+Biczó Márton,Murai Dan Titus,"['11-8', '9-11', '11-8', '7-11']",2,3,12
+Biczó Márton,Szöllősy Gábor,"['6-11', '11-9', '4-11', '13-11']",2,3,16
+Biczó Márton,Nincs játékos,[],3,0,4

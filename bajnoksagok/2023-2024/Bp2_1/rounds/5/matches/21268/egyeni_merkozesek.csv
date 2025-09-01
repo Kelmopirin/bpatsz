@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Markovits I Tamás,Kovács Miklós,"['12-10', '10-12', '11-7', '9-11']",3,2,1
+Markovits I Tamás,Kovács Zoltán,"['9-11', '8-11', '0-11']",0,3,5
+Markovits I Tamás,Sztárcsevics Gábor,"['7-11', '6-11', '3-11']",0,3,9
+Markovits I Tamás,Andrásik Ilona,"['4-11', '11-6', '11-3', '11-9']",3,1,13
+Katus Ferenc,Kovács Miklós,"['11-6', '6-11', '6-11', '4-11']",1,3,14
+Katus Ferenc,Kovács Zoltán,"['8-11', '11-8', '11-6', '11-8']",3,1,2
+Katus Ferenc,Sztárcsevics Gábor,"['11-5', '9-11', '11-6', '11-9']",3,1,6
+Katus Ferenc,Andrásik Ilona,"['11-9', '6-11', '11-6', '11-5']",3,1,10
+Lehel László,Kovács Miklós,"['14-16', '8-11', '6-11']",0,3,11
+Lehel László,Kovács Zoltán,"['11-4', '10-12', '11-9', '4-11']",2,3,15
+Lehel László,Sztárcsevics Gábor,"['7-11', '7-11', '5-11']",0,3,3
+Lehel László,Andrásik Ilona,"['11-5', '12-14', '4-11', '5-11']",1,3,7
+Biczó Márton,Kovács Miklós,"['11-3', '3-11', '8-11', '3-11']",1,3,8
+Biczó Márton,Kovács Zoltán,"['6-11', '8-11', '7-11']",0,3,12
+Biczó Márton,Sztárcsevics Gábor,"['5-11', '9-11', '8-11']",0,3,16
+Biczó Márton,Andrásik Ilona,"['11-6', '11-5', '7-11', '4-11']",2,3,4

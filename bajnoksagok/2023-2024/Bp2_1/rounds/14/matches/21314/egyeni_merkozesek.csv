@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Mészáros Attila,Imre Béla,"['11-9', '9-11', '10-12', '11-13']",1,3,1
+Mészáros Attila,Kocsor Péter,"['9-11', '11-4', '11-3', '12-10']",3,1,5
+Mészáros Attila,Hamar Csaba,"['12-10', '11-6', '6-11', '11-6']",3,1,9
+Mészáros Attila,Bleitner Attila,"['11-7', '9-11', '11-8', '11-7']",3,1,13
+Lakos Gábor,Imre Béla,"['6-11', '7-11', '7-11']",0,3,14
+Lakos Gábor,Kocsor Péter,"['11-7', '11-9', '8-11', '6-11']",3,2,2
+Lakos Gábor,Hamar Csaba,"['10-12', '3-11', '7-11']",0,3,6
+Lakos Gábor,Bleitner Attila,"['6-11', '9-11', '4-11']",0,3,10
+Galovics Márk,Imre Béla,"['4-11', '9-11', '9-11']",0,3,11
+Galovics Márk,Kocsor Péter,"['11-7', '11-5', '11-7']",3,0,15
+Galovics Márk,Hamar Csaba,"['11-8', '5-11', '11-4', '11-2']",3,1,3
+Galovics Márk,Bleitner Attila,"['2-11', '7-11', '11-8', '8-11']",1,3,7
+Kelemen Gyula,Imre Béla,"['11-4', '11-5', '11-3']",3,0,8
+Kelemen Gyula,Kocsor Péter,"['11-5', '11-6', '11-5']",3,0,12
+Kelemen Gyula,Hamar Csaba,"['11-7', '11-9', '11-7']",3,0,16
+Kelemen Gyula,Bleitner Attila,"['11-5', '11-5', '11-6']",3,0,4

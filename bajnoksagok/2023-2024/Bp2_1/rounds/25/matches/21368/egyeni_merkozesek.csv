@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Dezsényiné Horgos Barbara,Marsó Vilmos,"['5-11', '13-11', '9-11', '6-11']",1,3,1
+Dezsényiné Horgos Barbara,Solodovnikova Anna,"['9-11', '9-11', '11-7', '4-11']",1,3,5
+Dezsényiné Horgos Barbara,Kovács Zoltán,"['11-9', '7-11', '13-11', '5-11']",3,2,9
+Dezsényiné Horgos Barbara,Csima Viktor,"['11-6', '11-4', '8-11', '11-3']",3,1,13
+Borbély János,Marsó Vilmos,"['11-8', '11-7', '12-10']",3,0,14
+Borbély János,Solodovnikova Anna,"['11-4', '8-11', '8-11', '13-11']",2,3,2
+Borbély János,Kovács Zoltán,"['12-14', '15-17', '7-11']",0,3,6
+Borbély János,Csima Viktor,"['6-11', '11-2', '11-5', '11-1']",3,1,10
+Huszár Zoltán,Marsó Vilmos,"['9-11', '8-11', '12-10', '10-12']",1,3,11
+Huszár Zoltán,Solodovnikova Anna,"['11-5', '2-11', '10-12', '11-6']",2,3,15
+Huszár Zoltán,Kovács Zoltán,"['6-11', '11-9', '7-11', '11-2']",3,2,3
+Huszár Zoltán,Csima Viktor,[],3,0,7
+Nincs játékos,Marsó Vilmos,[],0,3,8
+Nincs játékos,Solodovnikova Anna,[],0,3,12
+Nincs játékos,Kovács Zoltán,[],0,3,16
+Nincs játékos,Csima Viktor,[],,,4
