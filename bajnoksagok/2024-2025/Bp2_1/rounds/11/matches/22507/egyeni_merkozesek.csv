@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Németh Sándor,Leinweber Zoltán,"['6-11', '5-11', '9-11']",0,3,1
+Németh Sándor,Bonnyainé Varga Éva,"['7-11', '4-11', '8-11']",0,3,5
+Németh Sándor,Szandi Nándor Mihály,"['5-11', '3-11', '6-11']",0,3,9
+Németh Sándor,Sipos Zoltán,"['11-9', '7-11', '6-11', '11-9']",3,2,13
+Veress Barna Dániel,Leinweber Zoltán,"['4-11', '7-11', '7-11']",0,3,14
+Veress Barna Dániel,Bonnyainé Varga Éva,"['12-10', '11-6', '11-7']",3,0,2
+Veress Barna Dániel,Szandi Nándor Mihály,"['13-11', '13-11', '7-11', '11-8']",3,1,6
+Veress Barna Dániel,Sipos Zoltán,"['11-9', '5-11', '11-5', '4-11']",2,3,10
+Brunner Máté,Leinweber Zoltán,"['1-11', '3-11', '2-11']",0,3,11
+Brunner Máté,Bonnyainé Varga Éva,"['7-11', '11-7', '6-11', '11-4']",2,3,15
+Brunner Máté,Szandi Nándor Mihály,"['5-11', '7-11', '5-11']",0,3,3
+Brunner Máté,Sipos Zoltán,"['3-11', '7-11', '11-5', '11-7']",2,3,7
+Petz László dr.Ásványi Béla,Leinweber Zoltán,"['5-11', '2-11', '7-11']",0,3,8
+Petz László dr.Ásványi Béla,Bonnyainé Varga Éva,"['4-11', '2-11', '5-11']",0,3,12
+Petz László dr.Ásványi Béla,Szandi Nándor Mihály,"['9-11', '7-11', '3-11']",0,3,16
+Petz László dr.Ásványi Béla,Sipos Zoltán,"['11-7', '11-9', '5-11', '8-11']",3,2,4

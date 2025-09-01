@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Brumár János,Dibusz Tibor,"['8-11', '7-11', '5-11']",0,3,1
+Brumár János,Czomba Imre,"['11-6', '6-11', '5-11', '9-11']",1,3,5
+Brumár János,Katona Emese,"['12-10', '11-9', '9-11', '11-7']",3,1,9
+Brumár János,Jeges Csaba,"['11-9', '11-9', '11-9']",3,0,13
+Sass Oszkár dr.,Dibusz Tibor,"['8-11', '11-7', '11-9', '11-7']",3,1,14
+Sass Oszkár dr.,Czomba Imre,"['11-6', '8-11', '7-11', '11-9']",3,2,2
+Sass Oszkár dr.,Katona Emese,"['12-10', '12-10', '11-8']",3,0,6
+Sass Oszkár dr.,Jeges Csaba,"['11-7', '11-8', '11-6']",3,0,10
+Arató János,Dibusz Tibor,"['9-11', '8-11', '7-11']",0,3,11
+Arató János,Czomba Imre,"['11-9', '9-11', '11-9', '8-11']",2,3,15
+Arató János,Katona Emese,"['4-11', '3-11', '11-9', '6-11']",1,3,3
+Arató János,Jeges Csaba,"['11-4', '11-9', '11-7']",3,0,7
+Fekete Viktor György,Dibusz Tibor,"['9-11', '9-11', '11-6', '7-11']",1,3,8
+Fekete Viktor György,Czomba Imre,"['7-11', '14-12', '11-2', '11-8']",3,1,12
+Fekete Viktor György,Katona Emese,"['14-12', '6-11', '11-9', '4-11']",2,3,16
+Fekete Viktor György,Jeges Csaba,"['11-9', '11-8', '10-12', '12-10']",3,1,4

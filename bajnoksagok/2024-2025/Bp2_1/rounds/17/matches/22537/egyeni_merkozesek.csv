@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Szöllősy Gábor,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,1
+Szöllősy Gábor,Ásványi Béla,"['11-2', '11-3', '11-6']",3,0,5
+Szöllősy Gábor,Tantó Attila,"['12-10', '11-5', '11-8']",3,0,9
+Szöllősy Gábor,Németh Sándor,"['5-11', '11-13', '11-6', '3-11']",1,3,13
+Bíró Zoltán,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,14
+Bíró Zoltán,Ásványi Béla,"['11-4', '11-3', '11-6']",3,0,2
+Bíró Zoltán,Tantó Attila,"['11-2', '11-5', '11-7']",3,0,6
+Bíró Zoltán,Németh Sándor,"['11-7', '11-7', '11-9']",3,0,10
+Hercz attila,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,11
+Hercz attila,Ásványi Béla,"['11-5', '11-2', '11-8']",3,0,15
+Hercz attila,Tantó Attila,"['8-11', '11-6', '9-11', '6-11']",1,3,3
+Hercz attila,Németh Sándor,"['8-11', '7-11', '7-11']",0,3,7
+Holecz Barna,Nincs játékos,"['11-0', '11-0', '11-0']",3,0,8
+Holecz Barna,Ásványi Béla,"['11-4', '11-5', '12-10']",3,0,12
+Holecz Barna,Tantó Attila,"['6-11', '9-11', '5-11']",0,3,16
+Holecz Barna,Németh Sándor,"['6-11', '11-8', '6-11', '11-5']",2,3,4

@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Brumár János,Fekete Zsolt,"['9-11', '8-11', '11-8', '7-11']",1,3,1
+Brumár János,Papp Csaba,"['7-11', '11-8', '11-8', '2-11']",3,2,5
+Brumár János,Kardos Géza,"['6-11', '6-11', '11-6', '11-6']",2,3,9
+Brumár János,Tapaszti Attila,"['0-11', '0-11', '0-11']",0,3,13
+Szécsi Krisztina,Fekete Zsolt,"['11-3', '11-7', '8-11', '7-11']",2,3,14
+Szécsi Krisztina,Papp Csaba,"['7-11', '8-11', '6-11']",0,3,2
+Szécsi Krisztina,Kardos Géza,"['7-11', '8-11', '8-11']",0,3,6
+Szécsi Krisztina,Tapaszti Attila,"['4-11', '5-11', '9-11']",0,3,10
+Nincs játékos,Fekete Zsolt,"['0-11', '0-11', '0-11']",0,3,11
+Nincs játékos,Papp Csaba,"['0-11', '0-11', '0-11']",0,3,15
+Nincs játékos,Kardos Géza,"['0-11', '0-11', '0-11']",0,3,3
+Nincs játékos,Tapaszti Attila,"['0-11', '0-11', '0-11']",0,3,7
+Fekete Viktor György,Fekete Zsolt,"['7-11', '0-11', '5-11']",0,3,8
+Fekete Viktor György,Papp Csaba,"['9-11', '5-11', '11-6', '11-9']",3,2,12
+Fekete Viktor György,Kardos Géza,"['8-11', '5-11', '8-11']",0,3,16
+Fekete Viktor György,Tapaszti Attila,"['2-11', '7-11', '8-11']",0,3,4

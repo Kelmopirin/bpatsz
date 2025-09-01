@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Szanda Szilárd,Holecz Barna,"['7-11', '11-6', '11-4', '11-9']",3,1,1
+Szanda Szilárd,Murai Dan Titus,"['11-6', '11-4', '11-5']",3,0,5
+Szanda Szilárd,Hercz attila,"['12-10', '11-9', '11-8']",3,0,9
+Szanda Szilárd,Szöllősy Gábor,"['9-11', '11-7', '8-11', '8-11']",1,3,13
+Turkovics Kornél,Holecz Barna,"['11-8', '9-11', '11-2', '11-4']",3,1,14
+Turkovics Kornél,Murai Dan Titus,"['11-5', '8-11', '11-9', '6-11']",3,2,2
+Turkovics Kornél,Hercz attila,"['10-12', '11-6', '8-11', '11-6']",3,2,6
+Turkovics Kornél,Szöllősy Gábor,"['11-4', '11-8', '11-5']",3,0,10
+Erdei IstvánMarsó Vilmos,Holecz Barna,"['11-6', '11-7', '11-8']",3,0,11
+Erdei IstvánMarsó Vilmos,Murai Dan Titus,"['5-11', '8-11', '11-5', '6-11']",1,3,15
+Erdei IstvánMarsó Vilmos,Hercz attila,"['11-6', '7-11', '7-11', '4-11']",1,3,3
+Erdei IstvánMarsó Vilmos,Szöllősy Gábor,"['8-11', '5-11', '7-11']",0,3,7
+Csima Viktor,Holecz Barna,"['9-11', '9-11', '10-12']",0,3,8
+Csima Viktor,Murai Dan Titus,"['12-10', '12-10', '4-11', '11-4']",3,1,12
+Csima Viktor,Hercz attila,"['11-6', '11-4', '5-11', '11-6']",3,1,16
+Csima Viktor,Szöllősy Gábor,"['10-12', '11-8', '6-11', '11-8']",3,2,4

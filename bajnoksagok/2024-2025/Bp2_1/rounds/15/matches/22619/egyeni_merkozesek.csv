@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Markovits I TamásPadányi László,Fekete Zsolt,"['8-11', '2-11', '2-11']",0,3,1
+Markovits I TamásPadányi László,Papp Csaba,"['9-11', '3-11', '3-11']",0,3,5
+Markovits I TamásPadányi László,Tomacsek József,"['1-11', '2-11', '9-11']",0,3,9
+Markovits I TamásPadányi László,Zsedényi Csaba,"['6-11', '1-11', '3-11']",0,3,13
+Lehel László,Fekete Zsolt,"['11-7', '4-11', '11-6', '11-9']",3,1,14
+Lehel László,Papp Csaba,"['11-7', '6-11', '8-11', '9-11']",1,3,2
+Lehel László,Tomacsek József,"['5-11', '11-9', '3-11', '3-11']",1,3,6
+Lehel László,Zsedényi Csaba,"['11-7', '11-8', '11-6']",3,0,10
+Simon Dániel Gábor,Fekete Zsolt,"['9-11', '8-11', '2-11']",0,3,11
+Simon Dániel Gábor,Papp Csaba,"['7-11', '7-11', '11-9', '11-9']",2,3,15
+Simon Dániel Gábor,Tomacsek József,"['11-8', '11-9', '11-5']",3,0,3
+Simon Dániel Gábor,Zsedényi Csaba,"['11-6', '11-9', '5-11', '7-11']",2,3,7
+Biczó Márton,Fekete Zsolt,"['8-11', '11-8', '8-11', '8-11']",1,3,8
+Biczó Márton,Papp Csaba,"['7-11', '7-11', '5-11']",0,3,12
+Biczó Márton,Tomacsek József,"['13-11', '7-11', '7-11', '11-9']",3,2,16
+Biczó Márton,Zsedényi Csaba,"['12-10', '7-11', '11-13', '5-11']",1,3,4
