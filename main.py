@@ -8,6 +8,7 @@ import os
 
 def download_season_data(bajnoksag,osztaly,logfile):
     try:
+        changed_data=False
         src=f"http://www.bpatsz.hu/bpatszenyr/index.php?bajnoksag={bajnoksag["id"]}&osztaly={osztaly["id"]}&fordulo={1}"
         response=requests.get(src)
         data=tg.extract_competition_data(response.text)
@@ -27,12 +28,14 @@ def download_season_data(bajnoksag,osztaly,logfile):
                 data=mg.extract_match_data(response.text)
                 mg.export_to_csv(data,f"bajnoksagok/{bajnoksag["name"]}/{osztaly["name"]}/rounds/{fordulo}/matches/{match["match_id"]}")
             print(f"Adatok kinyerve: {bajnoksag["name"]} {osztaly["name"]} {fordulo}. forduló")
+            changed_data=True
     except Exception as e:
         logfile.write(f"{datetime.datetime.now()}\tHiba a kinyervéssel: {e}\n")
         print(f"Hiba a kinyervéssel: {e}")
         logfile.write(f"{datetime.datetime.now()} {bajnoksag['name']} {osztaly['name']} {e}\n")
         print(f"Bajnokság: {bajnoksag['name']}, Osztály: {osztaly['name']}")
     logfile.flush()
+    return changed_data
 def get_player_data(player_id):
     src=f"http://www.bpatsz.hu/bpatszenyr/egyeni-bajnokilista.php"
     response=requests.post(src,data={"bajnokiev":27,"engszam":21614})
@@ -49,9 +52,10 @@ def get_all(years,classes,logfile):
                 logfile.write(f"{datetime.datetime.now()}\t{bajnoksag["name"]}/{osztaly["name"]} Alredy downloaded\n")
                 print(f"{bajnoksag['name']}/{osztaly["name"]} Alredy downloaded")
                 continue
-            download_season_data(bajnoksag,osztaly,logfile)
-            os.system("git add .")
-            os.system(f"git commit -m \"{bajnoksag['name']} done\"")
+            changed_data=download_season_data(bajnoksag,osztaly,logfile)
+            if changed_data:
+                os.system("git add .")
+                os.system(f"git commit -m \"{bajnoksag['name']} done\"")
 def main():
     classes=pd.read_csv("src/classid.csv")
     years=pd.read_csv("src/yearid.csv")
