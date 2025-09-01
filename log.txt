@@ -1172,3 +1172,5 @@
 2025-09-01 03:15:14.520537	2015-2016/Bp1_A Alredy downloaded
 2025-09-01 03:15:14.629757	Hiba a kinyervéssel: Üres Bajnokság
 2025-09-01 03:15:14.629757 2015-2016 Bp1_B1 Üres Bajnokság
+2025-09-01 03:15:15.885703	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 03:15:15.886479 2015-2016 Bp1_B2 Üres Bajnokság
