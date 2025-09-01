@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Jónás Péter,Bakó Endre,"['3-11', '6-11', '7-11']",0,3,1
+Jónás Péter,Hadnagy Levente,"['8-11', '11-6', '5-11', '1-11']",1,3,5
+Jónás Péter,Butyka Gyöngyi,"['1-11', '10-12', '3-11']",0,3,9
+Jónás Péter,Baluka Tamás,"['7-11', '11-9', '6-11', '8-11']",1,3,13
+Angyal Bettina,Bakó Endre,"['9-11', '7-11', '4-11']",0,3,14
+Angyal Bettina,Hadnagy Levente,"['7-11', '11-7', '8-11', '8-11']",1,3,2
+Angyal Bettina,Butyka Gyöngyi,"['12-10', '4-11', '5-11', '13-11']",2,3,6
+Angyal Bettina,Baluka Tamás,"['5-11', '15-13', '2-11', '6-11']",1,3,10
+Bende Attila,Bakó Endre,"['11-8', '8-11', '5-11', '7-11']",1,3,11
+Bende Attila,Hadnagy Levente,"['15-13', '11-7', '11-7']",3,0,15
+Bende Attila,Butyka Gyöngyi,"['6-11', '11-8', '7-11', '6-11']",1,3,3
+Bende Attila,Baluka Tamás,"['3-11', '4-11', '2-11']",0,3,7
+Bella Balázs,Bakó Endre,"['7-11', '11-5', '6-11', '12-10']",2,3,8
+Bella Balázs,Hadnagy Levente,"['11-6', '9-11', '11-4', '11-5']",3,1,12
+Bella Balázs,Butyka Gyöngyi,"['11-7', '12-10', '11-5']",3,0,16
+Bella Balázs,Baluka Tamás,"['9-11', '12-14', '11-8', '11-9']",3,2,4

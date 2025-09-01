@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Szemendri Sándor,Németh Sándor,"['11-9', '7-11', '11-13', '11-8']",2,3,1
+Szemendri Sándor,Gönczöl Péter,"['11-4', '11-7', '10-12', '11-6']",3,1,5
+Szemendri Sándor,Gárdai Csaba,"['5-11', '7-11', '7-11']",0,3,9
+Szemendri Sándor,Kelemen János,"['7-11', '12-10', '9-11', '11-5']",3,2,13
+Borbély Zoltán,Németh Sándor,"['11-13', '7-11', '11-7', '11-8']",3,2,14
+Borbély Zoltán,Gönczöl Péter,"['14-16', '12-14', '12-10', '11-13']",1,3,2
+Borbély Zoltán,Gárdai Csaba,"['9-11', '2-11', '9-11']",0,3,6
+Borbély Zoltán,Kelemen János,"['11-6', '6-11', '11-5', '8-11']",2,3,10
+Nincs játékos,Németh Sándor,[],0,3,11
+Nincs játékos,Gönczöl Péter,[],0,3,15
+Nincs játékos,Gárdai Csaba,[],0,3,3
+Nincs játékos,Kelemen János,[],0,3,7
+Szőts Viktor,Németh Sándor,"['11-2', '7-11', '9-11', '11-7']",3,2,8
+Szőts Viktor,Gönczöl Péter,"['17-15', '12-10', '10-12', '11-8']",3,1,12
+Szőts Viktor,Gárdai Csaba,"['11-4', '11-3', '11-8']",3,0,16
+Szőts Viktor,Kelemen János,"['11-3', '11-1', '11-4']",3,0,4

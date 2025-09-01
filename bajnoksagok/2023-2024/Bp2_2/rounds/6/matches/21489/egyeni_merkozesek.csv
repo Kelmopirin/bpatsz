@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Jónyer IstvánnéCzétényi János,Matolcsi Márta,"['7-11', '5-11', '0-11']",0,3,1
+Jónyer IstvánnéCzétényi János,Kékedi Tibor,"['5-11', '6-11', '5-11']",0,3,5
+Jónyer IstvánnéCzétényi János,Bella Balázs,"['3-11', '1-11', '10-12']",0,3,9
+Jónyer IstvánnéCzétényi János,Angyal Bettina,"['3-11', '8-11', '9-11']",0,3,13
+Krebs Zoltán,Matolcsi Márta,"['8-11', '11-3', '11-3', '11-2']",3,1,14
+Krebs Zoltán,Kékedi Tibor,"['6-11', '11-7', '11-4', '11-4']",3,1,2
+Krebs Zoltán,Bella Balázs,"['11-8', '11-7', '11-9']",3,0,6
+Krebs Zoltán,Angyal Bettina,"['13-11', '11-9', '11-5']",3,0,10
+Babicz Mihály,Matolcsi Márta,"['8-11', '7-11', '9-11']",0,3,11
+Babicz Mihály,Kékedi Tibor,"['11-8', '7-11', '11-6', '11-9']",3,1,15
+Babicz Mihály,Bella Balázs,"['7-11', '5-11', '13-11', '11-2']",2,3,3
+Babicz Mihály,Angyal Bettina,"['10-12', '11-6', '8-11', '11-7']",2,3,7
+Bálint Milán,Matolcsi Márta,"['9-11', '8-11', '8-11']",0,3,8
+Bálint Milán,Kékedi Tibor,"['11-9', '9-11', '7-11', '12-10']",3,2,12
+Bálint Milán,Bella Balázs,"['1-11', '7-11', '7-11']",0,3,16
+Bálint Milán,Angyal Bettina,"['11-7', '11-2', '11-6']",3,0,4

@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Kis László,Perjési Tamás,"['11-9', '11-5']",2,3,1
+Kis László,Hatházi Árpád,"['11-9', '11-5', '11-9']",3,0,5
+Kis László,Kurilla János,"['17-15', '11-7', '13-11']",3,0,9
+Kis László,Molnár Gábor,"['13-11', '4-11', '11-7', '9-11']",2,3,13
+Mészáros Ferenc,Perjési Tamás,['11-5'],1,3,14
+Mészáros Ferenc,Hatházi Árpád,"['11-5', '11-6', '11-13', '11-5']",3,1,2
+Mészáros Ferenc,Kurilla János,"['11-8', '11-4', '11-7']",3,0,6
+Mészáros Ferenc,Molnár Gábor,"['11-3', '11-8', '11-9']",3,0,10
+Lippai László,Perjési Tamás,"['4-11', '5-11']",3,2,11
+Lippai László,Hatházi Árpád,"['4-11', '3-11', '12-10', '6-11']",1,3,15
+Lippai László,Kurilla János,"['6-11', '2-11', '9-11']",0,3,3
+Lippai László,Molnár Gábor,"['4-11', '11-4', '6-11', '2-11']",1,3,7
+Tran van Tan,Perjési Tamás,"['11-13', '1-11', '11-13']",0,3,8
+Tran van Tan,Hatházi Árpád,"['10-12', '9-11', '9-11']",1,3,12
+Tran van Tan,Kurilla János,"['10-12', '9-11', '9-11']",0,3,16
+Tran van Tan,Molnár Gábor,"['12-10', '8-11', '11-9', '4-11']",3,2,4

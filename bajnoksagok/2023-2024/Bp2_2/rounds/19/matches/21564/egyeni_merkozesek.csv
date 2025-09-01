@@ -1,0 +1,17 @@
+home_player,away_player,sets,resulthome,resultaway,match_number
+Szurmai László,Karvák Attila,"['9-11', '7-11', '6-11']",0,3,1
+Szurmai László,Somody Attila,"['4-11', '3-11', '8-11']",0,3,5
+Szurmai László,Zlotov Viktor,"['2-11', '8-11', '7-11']",0,3,9
+Szurmai László,Csabai CsabaTorda Roland,"['11-4', '11-7', '11-9']",3,0,13
+Balog Tamás,Karvák Attila,"['11-8', '11-9', '11-9']",3,0,14
+Balog Tamás,Somody Attila,"['11-2', '11-8', '14-12']",3,0,2
+Balog Tamás,Zlotov Viktor,"['11-4', '11-3', '8-11', '12-10']",3,1,6
+Balog Tamás,Csabai CsabaTorda Roland,"['11-6', '11-4', '11-6']",3,0,10
+Szabó Dénes,Karvák Attila,"['8-11', '10-12', '4-11']",0,3,11
+Szabó Dénes,Somody Attila,"['12-10', '17-15', '11-5']",3,0,15
+Szabó Dénes,Zlotov Viktor,"['5-11', '9-11', '11-13']",0,3,3
+Szabó Dénes,Csabai CsabaTorda Roland,"['4-11', '11-9', '11-6', '8-11']",3,2,7
+Bódis Ádám,Karvák Attila,"['11-4', '9-11', '9-11', '9-11']",1,3,8
+Bódis Ádám,Somody Attila,"['12-14', '11-2', '4-11', '10-12']",1,3,12
+Bódis Ádám,Zlotov Viktor,"['11-4', '11-7', '6-11', '6-11']",2,3,16
+Bódis Ádám,Csabai CsabaTorda Roland,"['11-6', '11-8', '11-4']",3,0,4
