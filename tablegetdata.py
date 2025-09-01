@@ -4,7 +4,7 @@ import re
 import os
 
 
-def is_empty_html(html_content):
+def is_empty_html(soup):
     keresztabla_első = soup.find('legend', string=re.compile("Kereszttábla.*első félév"))
     if keresztabla_első:
         keresztabla_első = keresztabla_első.find_parent('fieldset')
@@ -22,11 +22,20 @@ def is_empty_html(html_content):
                     for cella in cellak:
                         if cella.text.strip() and cella.text.strip() != '&nbsp;':
                             return False
+    fordulo_select = soup.find('select', {'name': 'fordulo'})
+    if fordulo_select:
+        options = fordulo_select.find_all('option')
+        if not options:  # Nincs option elem, üres a dropdown
+            return True
+    
+    # 7. Ha egyik ellenőrzés sem talált adatot, akkor az oldal üres
     return True
 def extract_competition_data(html_content):
     """Verseny adatok kinyerése HTML tartalomból"""
     soup = BeautifulSoup(html_content, 'html.parser')
     # Alap információk kinyerése
+    if is_empty_html(soup):
+        raise Exception("Üres Bajnokság")
     competition_info = {
         'season': extract_season(soup),
         'class': extract_class(soup),
