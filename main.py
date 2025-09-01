@@ -59,7 +59,7 @@ def main():
     osztaly={ "name":osztaly,"id":classes.loc[classes["name"]==osztaly]["id"].values[0]}
     #download_season_data(bajnoksag,osztaly)
     #get_player_data(21614)
-    with open("log.txt","a") as logfile:
+    with open("log.txt","a",encoding="utf-8") as logfile:
         logfile.write(f"{datetime.datetime.now()}\tLog start\n")
         try:
             get_all(years,classes,logfile)
