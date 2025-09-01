@@ -55,7 +55,7 @@ def get_all(years,classes,logfile):
             changed_data=download_season_data(bajnoksag,osztaly,logfile)
             if changed_data:
                 os.system("git add .")
-                os.system(f"git commit -m \"{bajnoksag['name']} done\"")
+                os.system(f"git commit -m \"{bajnoksag['name']}/{osztaly['name']} done\"")
 def main():
     classes=pd.read_csv("src/classid.csv")
     years=pd.read_csv("src/yearid.csv")

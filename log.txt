@@ -1420,3 +1420,116 @@
 2025-09-01 09:16:20.681030 2020-2021 Bp1_B Üres Bajnokság
 2025-09-01 09:16:20.994216	Hiba a kinyervéssel: Üres Bajnokság
 2025-09-01 09:16:20.994216 2020-2021 Bp1_C Üres Bajnokság
+2025-09-01 09:16:23.537022	2021-2022/Bp1_A/1 Alredy downloaded
+2025-09-01 09:16:23.539804	2021-2022/Bp1_A/2 Alredy downloaded
+2025-09-01 09:16:23.539804	2021-2022/Bp1_A/3 Alredy downloaded
+2025-09-01 09:16:23.539804	2021-2022/Bp1_A/4 Alredy downloaded
+2025-09-01 09:16:23.539804	2021-2022/Bp1_A/5 Alredy downloaded
+2025-09-01 09:16:23.539804	2021-2022/Bp1_A/6 Alredy downloaded
+2025-09-01 09:16:23.541108	2021-2022/Bp1_A/7 Alredy downloaded
+2025-09-01 09:16:23.541108	2021-2022/Bp1_A/8 Alredy downloaded
+2025-09-01 09:16:23.541108	2021-2022/Bp1_A/9 Alredy downloaded
+2025-09-01 09:16:23.541108	2021-2022/Bp1_A/10 Alredy downloaded
+2025-09-01 09:16:23.542288	2021-2022/Bp1_A/11 Alredy downloaded
+2025-09-01 09:18:06.869932	Hiba a kinyervéssel: HTTPConnectionPool(host='www.bpatsz.hu', port=80): Max retries exceeded with url: /bpatszenyr/index.php?action=mecslap&id=18786 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001877E408470>, 'Connection to www.bpatsz.hu timed out. (connect timeout=None)'))
+2025-09-01 09:18:06.869932 2021-2022 Bp1_A HTTPConnectionPool(host='www.bpatsz.hu', port=80): Max retries exceeded with url: /bpatszenyr/index.php?action=mecslap&id=18786 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001877E408470>, 'Connection to www.bpatsz.hu timed out. (connect timeout=None)'))
+2025-09-01 09:18:16.872142	Log start
+2025-09-01 09:18:16.874180	2014-2015/Bp1_A Alredy downloaded
+2025-09-01 09:18:16.968112	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:16.968112 2014-2015 Bp1_B1 Üres Bajnokság
+2025-09-01 09:18:17.298404	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:17.298404 2014-2015 Bp1_B2 Üres Bajnokság
+2025-09-01 09:18:17.301070	2014-2015/Bp2_1 Alredy downloaded
+2025-09-01 09:18:17.304466	2014-2015/Bp2_2 Alredy downloaded
+2025-09-01 09:18:17.305574	2014-2015/Bp2_3 Alredy downloaded
+2025-09-01 09:18:17.308474	2014-2015/Bp1_B Alredy downloaded
+2025-09-01 09:18:17.309450	2014-2015/Bp1_C Alredy downloaded
+2025-09-01 09:18:17.312595	2015-2016/Bp1_A Alredy downloaded
+2025-09-01 09:18:17.629488	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:17.629488 2015-2016 Bp1_B1 Üres Bajnokság
+2025-09-01 09:18:17.962820	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:17.962820 2015-2016 Bp1_B2 Üres Bajnokság
+2025-09-01 09:18:17.964827	2015-2016/Bp2_1 Alredy downloaded
+2025-09-01 09:18:17.966834	2015-2016/Bp2_2 Alredy downloaded
+2025-09-01 09:18:17.968392	2015-2016/Bp2_3 Alredy downloaded
+2025-09-01 09:18:17.970422	2015-2016/Bp1_B Alredy downloaded
+2025-09-01 09:18:17.972083	2015-2016/Bp1_C Alredy downloaded
+2025-09-01 09:18:17.973555	2016-2017/Bp1_A Alredy downloaded
+2025-09-01 09:18:18.299532	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:18.299532 2016-2017 Bp1_B1 Üres Bajnokság
+2025-09-01 09:18:18.629627	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:18.629627 2016-2017 Bp1_B2 Üres Bajnokság
+2025-09-01 09:18:18.632181	2016-2017/Bp2_1 Alredy downloaded
+2025-09-01 09:18:18.632181	2016-2017/Bp2_2 Alredy downloaded
+2025-09-01 09:18:18.636029	2016-2017/Bp2_3 Alredy downloaded
+2025-09-01 09:18:18.638253	2016-2017/Bp1_B Alredy downloaded
+2025-09-01 09:18:18.638253	2016-2017/Bp1_C Alredy downloaded
+2025-09-01 09:18:18.638253	2017-2018/Bp1_A Alredy downloaded
+2025-09-01 09:18:18.976984	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:18.976984 2017-2018 Bp1_B1 Üres Bajnokság
+2025-09-01 09:18:19.295037	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:19.295037 2017-2018 Bp1_B2 Üres Bajnokság
+2025-09-01 09:18:19.300575	2017-2018/Bp2_1 Alredy downloaded
+2025-09-01 09:18:19.303499	2017-2018/Bp2_2 Alredy downloaded
+2025-09-01 09:18:19.304506	2017-2018/Bp2_3 Alredy downloaded
+2025-09-01 09:18:19.307291	2017-2018/Bp1_B Alredy downloaded
+2025-09-01 09:18:19.309694	2017-2018/Bp1_C Alredy downloaded
+2025-09-01 09:18:19.311069	2018-2019/Bp1_A Alredy downloaded
+2025-09-01 09:18:19.632749	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:19.632749 2018-2019 Bp1_B1 Üres Bajnokság
+2025-09-01 09:18:19.964935	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:19.964935 2018-2019 Bp1_B2 Üres Bajnokság
+2025-09-01 09:18:19.966943	2018-2019/Bp2_1 Alredy downloaded
+2025-09-01 09:18:19.968954	2018-2019/Bp2_2 Alredy downloaded
+2025-09-01 09:18:19.970964	2018-2019/Bp2_3 Alredy downloaded
+2025-09-01 09:18:19.970964	2018-2019/Bp1_B Alredy downloaded
+2025-09-01 09:18:19.975487	2018-2019/Bp1_C Alredy downloaded
+2025-09-01 09:18:19.977677	2019-2020/Bp1_A Alredy downloaded
+2025-09-01 09:18:20.297368	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:20.299377 2019-2020 Bp1_B1 Üres Bajnokság
+2025-09-01 09:18:20.630159	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:20.630665 2019-2020 Bp1_B2 Üres Bajnokság
+2025-09-01 09:18:20.631683	2019-2020/Bp2_1 Alredy downloaded
+2025-09-01 09:18:20.633193	2019-2020/Bp2_2 Alredy downloaded
+2025-09-01 09:18:20.636314	2019-2020/Bp2_3 Alredy downloaded
+2025-09-01 09:18:20.637318	2019-2020/Bp1_B Alredy downloaded
+2025-09-01 09:18:20.642347	2019-2020/Bp1_C Alredy downloaded
+2025-09-01 09:18:20.643564	2020-2021/Bp1_A Alredy downloaded
+2025-09-01 09:18:20.648363	2020-2021/Bp1_B1 Alredy downloaded
+2025-09-01 09:18:20.650582	2020-2021/Bp1_B2 Alredy downloaded
+2025-09-01 09:18:20.651113	2020-2021/Bp2_1 Alredy downloaded
+2025-09-01 09:18:20.654777	2020-2021/Bp2_2 Alredy downloaded
+2025-09-01 09:18:20.657379	2020-2021/Bp2_3 Alredy downloaded
+2025-09-01 09:18:20.945002	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:20.945002 2020-2021 Bp1_B Üres Bajnokság
+2025-09-01 09:18:21.285772	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 09:18:21.285772 2020-2021 Bp1_C Üres Bajnokság
+2025-09-01 09:18:23.217066	2021-2022/Bp1_A/1 Alredy downloaded
+2025-09-01 09:18:23.217066	2021-2022/Bp1_A/2 Alredy downloaded
+2025-09-01 09:18:23.217066	2021-2022/Bp1_A/3 Alredy downloaded
+2025-09-01 09:18:23.217066	2021-2022/Bp1_A/4 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/5 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/6 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/7 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/8 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/9 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/10 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/11 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/12 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/13 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/14 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/15 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/16 Alredy downloaded
+2025-09-01 09:18:23.221499	2021-2022/Bp1_A/17 Alredy downloaded
+2025-09-01 09:18:23.226102	2021-2022/Bp1_A/18 Alredy downloaded
+2025-09-01 09:18:23.226102	2021-2022/Bp1_A/19 Alredy downloaded
+2025-09-01 09:18:23.227114	2021-2022/Bp1_A/20 Alredy downloaded
+2025-09-01 09:18:23.227683	2021-2022/Bp1_A/21 Alredy downloaded
+2025-09-01 09:18:23.227683	2021-2022/Bp1_A/22 Alredy downloaded
+2025-09-01 09:18:23.227683	2021-2022/Bp1_A/23 Alredy downloaded
+2025-09-01 09:18:23.228345	2021-2022/Bp1_A/24 Alredy downloaded
+2025-09-01 09:18:23.228345	2021-2022/Bp1_A/25 Alredy downloaded
+2025-09-01 09:18:23.228878	2021-2022/Bp1_A/26 Alredy downloaded
+2025-09-01 09:18:23.228878	2021-2022/Bp1_A/27 Alredy downloaded
+2025-09-01 09:18:23.229432	2021-2022/Bp1_A/28 Alredy downloaded
+2025-09-01 09:18:23.229432	2021-2022/Bp1_A/29 Alredy downloaded
