@@ -1270,3 +1270,7 @@
 2025-09-01 03:36:53.509145 2019-2020 Bp1_B2 Üres Bajnokság
 2025-09-01 03:50:18.204943	Hiba a kinyervéssel: HTTPConnectionPool(host='www.bpatsz.hu', port=80): Max retries exceeded with url: /bpatszenyr/index.php?bajnoksag=19&osztaly=1&fordulo=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000175929D8A40>, 'Connection to www.bpatsz.hu timed out. (connect timeout=None)'))
 2025-09-01 03:50:18.204943 2020-2021 Bp1_A HTTPConnectionPool(host='www.bpatsz.hu', port=80): Max retries exceeded with url: /bpatszenyr/index.php?bajnoksag=19&osztaly=1&fordulo=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000175929D8A40>, 'Connection to www.bpatsz.hu timed out. (connect timeout=None)'))
+2025-09-01 04:00:04.179743	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 04:00:04.179743 2020-2021 Bp1_B Üres Bajnokság
+2025-09-01 04:00:04.515905	Hiba a kinyervéssel: Üres Bajnokság
+2025-09-01 04:00:04.515905 2020-2021 Bp1_C Üres Bajnokság
