@@ -50,6 +50,8 @@ def get_all(years,classes,logfile):
                 print(f"{bajnoksag['name']}/{osztaly["name"]} Alredy downloaded")
                 continue
             download_season_data(bajnoksag,osztaly,logfile)
+            os.system("git add .")
+            os.system(f"git commit -m \"{bajnoksag['name']} done\"")
 def main():
     classes=pd.read_csv("src/classid.csv")
     years=pd.read_csv("src/yearid.csv")
