@@ -1,0 +1,10 @@
+.title{
+    font-family: "Courier New";
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #c89f1e;
+    rotate: 10deg;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
